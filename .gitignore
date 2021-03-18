@@ -1,0 +1,9 @@
+.DS_Store
+Software/*/build/
+**/build/
+
+*.b#*
+*.s#*
+
+**/*.b#*
+**/*.s#*
