@@ -1,27 +1,36 @@
-﻿"Manufacturer Part Number","Manufacturer","Digi-Key Part Number","Reference Designator","Quantity","Description"
-"CL10B104KB8NNNC","Samsung Electro-Mechanics","1276-1000-1-ND","C13","1","CAP CER 0.1UF 50V X7R 0603"
-"ERJ-PA3J152V","Panasonic Electronic Components","P1.5KBZCT-ND","R5","1","RES SMD 1.5K OHM 5% 1/4W 0603"
-"ERJ-PA3J104V","Panasonic Electronic Components","P100KBZCT-ND","R2, R3, R19, R20, R21","5","RES SMD 100K OHM 5% 1/4W 0603"
-"F930G107KAA","AVX Corporation","478-8132-1-ND","C10","1","CAP TANT 100UF 10% 4V 1206"
-"ERJ-PA3J103V","Panasonic Electronic Components","P10KBZCT-ND","R6, R9, R10, R11, R12, R13, R14, R15","8","RES SMD 10K OHM 5% 1/4W 0603"
-"CL10A106MP8NNNC","Samsung Electro-Mechanics","1276-1871-1-ND","C1, C2, C4, C6","4","CAP CER 10UF 10V X5R 0603"
-"ERJ-PA3F1500V","Panasonic Electronic Components","P150BYCT-ND","R18","1","RES SMD 150 OHM 1% 1/4W 0603"
-"CL10A105KP8NNNC","Samsung Electro-Mechanics","1276-1182-1-ND","C3, C8, C9, C14","4","CAP CER 1UF 10V X5R 0603"
-"CL10C221JB8NNNC","Samsung Electro-Mechanics","1276-1048-1-ND","C7","1","CAP CER 220PF 50V C0G/NP0 0603"
-"ERJ-PA3J472V","Panasonic Electronic Components","P4.7KBZCT-ND","R1","1","RES SMD 4.7K OHM 5% 1/4W 0603"
-"ERJ-PA3J471V","Panasonic Electronic Components","P470BZCT-ND","R4","1","RES SMD 470 OHM 5% 1/4W 0603"
-"5031821852","Molex","WM12834CT-ND","J5","1","MICRO SD NORMAL ULTRALOWPRO8CKTE"
-"AP2112K-3.3TRG1","Diodes Incorporated","AP2112K-3.3TRG1DICT-ND","U3","1","IC REG LINEAR 3.3V 600MA SOT25"
-"SJ1-3525NG-GR","CUI Devices","CP1-3525NG-GR-ND","J1","1","CONN JACK STEREO 3.5MM R/A"
-"S2B-PH-SM4-TB(LF)(SN)","JST Sales America Inc.","455-1749-1-ND","J3","1","CONN HEADER SMD R/A 2POS 2MM"
-"DMG3415U-7","Diodes Incorporated","DMG3415UDICT-ND","Q3","1","MOSFET P-CH 20V 4A SOT23-3"
-"ESP32-WROVER-E (16MB)","Espressif Systems","1965-ESP32-WROVER-E(16MB)CT-ND","U1","1","RX TXRX MOD WIFI PCB TRACE SMD"
-"FH34SRJ-45S-0.5SH(50)","Hirose Electric Co Ltd","26-FH34SRJ-45S-0.5SH(50)CT-ND","U$11","1","CONN FFC FPC 0.5MM SMD"
-"SSL-LX3059IGW","Lumex Opto/Components Inc.","67-1327-ND","LED2","1","LED GRN/RED DIFF T-3MM TRI T/H"
-"LM4875MX/NOPB","Texas Instruments","296-35282-1-ND","U6","1","IC AMP CLASS AB MONO 1W 8SOIC"
-"MBR120LSFT1G","ON Semiconductor","MBR120LSFT1GOSCT-ND","D4","1","DIODE SCHOTTKY 20V 1A SOD123L"
-"MCP73831T-2ACI/OT","Microchip Technology","MCP73831T-2ACI/OTCT-ND","U4","1","IC BATT CNTL LI-ION 1CEL SOT23-5"
-"MA12RTR","APEM Inc.","679-1847-1-ND","S3","1","SWITCH SLIDE SPDT 300MA 4V"
-"KMR221GLFS","C&K","401-1427-1-ND","S1, S2","2","SWITCH TACTILE SPST-NO 0.05A 32V"
-"USB4110-GF-A","GCT","2073-USB4110-GF-A-1-ND","J6","1","CONN USB 2.0 TYPE-C R/A SMT"
-"MMBT2222A-7-F","Diodes Incorporated","MMBT2222A-FDICT-ND","Q4, Q5","2","TRANS NPN 40V 0.6A SMD SOT23-3"
+"Qty";"Value";"Device";"Package";"Parts";"Description";"DESCRIPTION";"DIGI-KEY_PART_NUMBER";"DIGI-KEY_PURCHASE_URL";"IGNORE_BOM";"MF";"MP";"MPN";"NO_BOM";"PACKAGE";"PROD_ID";"PURCHASE-URL";"SF_ID";"SF_SKU";"SKU";"TP_SIGNAL_NAME";
+"1";"";"CONN_06NO_SILK_NO_POP";"1X06_NO_SILK";"J4";"Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
+"1";"0.1uF";"CAP_CERAMIC";"0603-MINI-CAP";"C13";"Ceramic Capacitors";"";"";"";"";"";"";"CL10B104KB8NNNC";"";"";"";"";"";"";"";"";
+"2";"1.5K";"RESISTOR0603MINI";"0603-MINI";"R1, R5";"Resistors";"";"";"";"";"";"";"ERJ-PA3J152V";"";"";"";"";"";"";"";"";
+"5";"100K";"RESISTOR0603MINI";"0603-MINI";"R2, R3, R19, R20, R21";"Resistors";"";"";"";"";"";"";"ERJ-PA3J104V";"";"";"";"";"";"";"";"";
+"1";"100uF";"CAP_TANTALUMA/3216_WAVE";"EIA3216-18/A-W";"C10";"Tantalum Capacitors";"";"";"";"";"";"";"F930J107KAA";"";"";"";"";"";"";"";"";
+"8";"10K";"RESISTOR0603MINI";"0603-MINI";"R6, R9, R10, R11, R12, R13, R14, R15";"Resistors";"";"";"";"";"";"";"ERJ-PA3J103V";"";"";"";"";"";"";"";"";
+"4";"10uF";"CAP_CERAMIC";"0603-MINI-CAP";"C1, C2, C4, C6";"Ceramic Capacitors";"";"";"";"";"";"";"CL10A106MP8NNNC";"";"";"";"";"";"";"";"";
+"1";"150 Ohm";"RESISTOR0603MINI";"0603-MINI";"R18";"Resistors";"";"";"";"";"";"";"ERJ-PA3J151V";"";"";"";"";"";"";"";"";
+"4";"1uF";"CAP_CERAMIC";"0603-MINI-CAP";"C3, C8, C9, C14";"Ceramic Capacitors";"";"";"";"";"";"";"CL10A105KP8NNNC";"";"";"";"";"";"";"";"";
+"1";"220pF";"CAP_CERAMIC";"0603-MINI-CAP";"C7";"Ceramic Capacitors";"";"";"";"";"";"";"CL10C221JB8NNNC";"";"";"";"";"";"";"";"";
+"2";"27k";"THUMBWHEEL";"THUMBWHEEL";"R16, R17";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
+"1";"470";"RESISTOR0603MINI";"0603-MINI";"R4";"Resistors";"";"";"";"";"";"";"ERJ-PA3J471V";"";"";"";"";"";"";"";"";
+"2";"5.1K";"RESISTOR0603MINI";"0603-MINI";"R22, R24";"Resistors";"";"";"";"";"";"";"ERJ-PA3F5101V";"";"";"";"";"";"";"";"";
+"1";"503182-1852_503182-1852";"503182-1852_503182-1852";"503182-1852_MOLEX_503182-1852";"J5";"Conn Micro SD Card M 8 POS 1.09mm Solder RA SMD Embossed T/R 0.5A/Contact";" MICRO SD NORMAL ULTRALOWPRO8CKTE ";"WM12834CT-ND";"https://www.digikey.ca/product-detail/en/molex/5031821852/WM12834CT-ND/5823232?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol";"";"Molex";"5031821852";"5031821852";"";"None";"";"";"";"";"";"";
+"1";"AUDIO_JACK_3.5MM_KIT";"AUDIO_JACK_3.5MM_KIT";"AUDIO-JACK-KIT";"J1";"Audio Jack";"";"";"";"";"";"";"SJ1-3525NG-GR";"";"";"CONN-10353";"";"PRT-08032";"";"";"";
+"1";"Batt Conn";"JST_2MM_MALE";"JST-2-SMD";"J3";"JST 2MM MALE RA CONNECTOR";"";"";"";"";"";"";"S2B-PH-SM4-TB(LF)(SN)";"";"";"CONN-11443";"";"PRT-08612";"";"";"";
+"4";"CONDUCTIVE_BUTTONCONDUCTIVE_BUTTON_DIRECTIONAL_THICK";"CONDUCTIVE_BUTTONCONDUCTIVE_BUTTON_DIRECTIONAL_THICK";"CONDUCTIVE_BUTTON_DIRECTIONAL_THICK";"DOWN, LEFT, RIGHT, UP";"";"";"";"";"TRUE";"";"";"";"";"";"";"";"";"";"";"";
+"2";"CONDUCTIVE_BUTTONCONDUCTIVE_BUTTON_THICK";"CONDUCTIVE_BUTTONCONDUCTIVE_BUTTON_THICK";"CONDUCTIVE_BUTTON_THICK";"A, B";"";"";"";"";"TRUE";"";"";"";"";"";"";"";"";"";"";"";
+"2";"CONDUCTIVE_BUTTON_STARTSELECTCONDUCTIVE_BUTTON_THICK_STARTSELECT";"CONDUCTIVE_BUTTON_STARTSELECTCONDUCTIVE_BUTTON_THICK_STARTSELECT";"CONDUCTIVE_BUTTON_THICK_STARTSELECT";"SELECT, START";"";"";"";"";"TRUE";"";"";"";"";"";"";"";"";"";"";"";
+"1";"DMG3415U-7";"MOSFET-P";"SOT23-R";"Q3";"P-Channel Mosfet";"";"";"";"";"";"";"DMG3415U-7";"";"";"";"";"";"";"";"";
+"1";"ESP32-WROVER_ESP32-WROVER";"ESP32-WROVER_ESP32-WROVER";"ESP32-WROVER_ESP32-WROVER";"U1";"";"";"";"";"";"";"";"ESP32-WROVER (16MB)";"";"";"";"";"";"";"";"";
+"1";"GND";"TESTPADTP18R";"TESTPAD";"GND";"TEST PIN";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
+"1";"KD026LQTMA008";"KD026LQTMA008";"KD026LQTMA008";"U$11";"";"";"";"";"";"";"";"FH34SRJ-45S-0.5SH(50)";"";"";"";"";"";"";"";"";
+"1";"LED_L-115WEGW-CA";"LED_L-115WEGW-CA";"LED_DUOLED-A-3MM";"LED2";"T-1(3mm) BI-COLOR INDICATOR LAMP";"";"";"";"";"";"";"SSL-LX3059IGW";"";"";"";"";"";"";"";"";
+"1";"LM4875";"LM4875";"SOIC8";"U6";"";"";"";"";"";"";"";"LM4875MX/NOPB";"";"";"";"";"";"";"";"";
+"1";"MBR120";"DIODE-SCHOTTKYSOD-123";"SOD-123";"D4";"";"";"";"";"";"";"";"MBR120LSFT1G";"";"";"";"";"";"";"";"";
+"1";"MCP73832T-2ACI/OT";"MCP73831/2";"SOT23-5-1";"U4";"MCP73831/2 LIPO Charger";"";"";"";"";"";"";"MCP73832T-2ACI/OT";"";"";"";"";"";"";"";"";
+"1";"MGB-001MGB-001-ESP32-LITE";"MGB-001MGB-001-ESP32-LITE";"MGB-001-ESP32-LITE";"U$17";"MGB-001";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
+"1";"RETIRED_SWITCH_SPDT";"RETIRED_SWITCH_SPDT";"RETIRED_KPS-1290";"S3";"SWCH-10651";"";"";"";"";"";"";"MA12RTR";"";"";"SWITCH SLIDE SPDT 300MA 4V";"";"";"";"";"";
+"1";"SPKR";"CONN_02";"1X02";"J2";"Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections";"";"";"";"";"";"";"";"";"";"CONN-13512";"";"PRT-09918";"PRT-08432";"PRT-09914";"";
+"2";"SWITCHES_MOMENTARY-SWITCH-SPST-SMD-4.6X2.8MM";"SWITCHES_MOMENTARY-SWITCH-SPST-SMD-4.6X2.8MM";"SWITCHES_TACTILE_SWITCH_SMD_4.6X2.8MM";"S1, S2";"Momentary Switch (Pushbutton) - SPST";"";"";"";"";"";"";"KMR221GLFS";"";"";"COMP-12265";"";"";"COM-12993";"";"";
+"9";"TESTPADTP18R";"TESTPADTP18R";"TESTPAD";"3V3, BACKLIGHT, GPIO0, RESET, SOURCE, SUPPLY, VBAT, VBUS, VOLUME";"TEST PIN";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
+"1";"USB4110-GF-A";"USB4110-GF-A";"GCT_USB4110-GF-A";"J6";"CONN USB 2.0 TYPE-C R/A SMT";" USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle";" Through Hole ";"";"";"";"GCT";"USB4110-GF-A";"USB4105-GF-A";"";"None";"";"https://pricing.snapeda.com/search/part/USB4110-GF-A/?ref=eda";"";"";"";
+"1";"XC6210B332MR-G";"AP2112-3.3";"SOT23-5";"U3";"SOT23-5 Fixed Voltage Regulators";"";"";"";"";"";"";"XC6210B332MR-G";"";"";"";"";"";"";"";"";
+"2";"mmbt2222";"TRANSISTOR_NPNSOT23-3";"SOT23-3";"Q4, Q5";"Transistor NPN";"";"";"";"";"";"";"MMBT2222A-7-F";"";"";"";"";"";"";"";"";

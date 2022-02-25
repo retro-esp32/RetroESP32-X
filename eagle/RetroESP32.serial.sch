@@ -10,6 +10,18 @@
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
@@ -173,7 +185,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
-<fusionteam huburn="a.cGVyc29uYWw6dWUyYjExYjI4" projecturn="a.cGVyc29uYWw6dWUyYjExYjI4IzIwMTkwNjA2MTk3NjIxNDMx" folderUrn="urn:adsk.wipprod:fs.folder:co.pA_OyOrURcuKuaZfHTjB4g" urn="urn:adsk.wipprod:dm.lineage:Icr6WPrBQqyt1Fjy8F2vYQ"  versionUrn="urn:adsk.wipprod:fs.file:vf.Icr6WPrBQqyt1Fjy8F2vYQ?version=2" camFileUrn="" camFileVersionUrn="" lastpublishedchangeguid="0d13f2ab-97a2-a32b-56ea-4ebf682dbeb6"/>
+<fusionteam huburn="a.cGVyc29uYWw6dWUyYjExYjI4" projecturn="a.cGVyc29uYWw6dWUyYjExYjI4IzIwMTkwNjA2MTk3NjIxNDMx" folderUrn="urn:adsk.wipprod:fs.folder:co.pA_OyOrURcuKuaZfHTjB4g" urn="urn:adsk.wipprod:dm.lineage:OKww383lRkKSaUUYvK2eyA"  versionUrn="urn:adsk.wipprod:fs.file:vf.OKww383lRkKSaUUYvK2eyA?version=2" camFileUrn="" camFileVersionUrn="" lastpublishedchangeguid="ac8d62a2-0c2d-d496-0e6b-be1fc9fcb0c2"/>
 <libraries>
 <library name="RetroESP32" urn="urn:adsk.eagle:library:12566846">
 <description>Generated from &lt;b&gt;RetroESP32.sch&lt;/b&gt;&lt;p&gt;
@@ -1853,7 +1865,7 @@ Source: Kingbright .. 2_colour_led_.pdf</description>
 <text x="3.81" y="2.54" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="3.81" y="-2.54" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="KD026LQTMA008" urn="urn:adsk.eagle:footprint:21234580/2" library_version="19" library_locally_modified="yes">
+<package name="KD026LQTMA008" urn="urn:adsk.eagle:footprint:21234580/3" library_version="20">
 <wire x1="-30.15" y1="25.575" x2="30.15" y2="25.575" width="0.127" layer="21"/>
 <wire x1="-30.15" y1="-25.575" x2="30.15" y2="-25.575" width="0.127" layer="21"/>
 <wire x1="-26.4" y1="22.225" x2="26.4" y2="22.225" width="0.127" layer="21"/>
@@ -2083,7 +2095,7 @@ Source: Kingbright .. 2_colour_led_.pdf</description>
 <vertex x="-10.83" y="8.16"/>
 </polygon>
 </package>
-<package name="MGB-001-ESP32-LITE" urn="urn:adsk.eagle:footprint:25781130/1" locally_modified="yes" library_version="19" library_locally_modified="yes">
+<package name="MGB-001-ESP32-LITE" urn="urn:adsk.eagle:footprint:25781130/2" library_version="20">
 <wire x1="69.5" y1="112" x2="69.5" y2="96.5" width="0" layer="20"/>
 <wire x1="69.5" y1="96.5" x2="69.75" y2="96.5" width="0" layer="20"/>
 <wire x1="69.75" y1="96.5" x2="70.25" y2="96" width="0" layer="20" curve="-90"/>
@@ -8451,6 +8463,80 @@ Source: Kingbright .. 2_colour_led_.pdf</description>
 <hole x="2.05" y="23.5" drill="2.6"/>
 <hole x="46.6" y="22.4" drill="3.5"/>
 </package>
+<package name="KD026LQTMA008-FH34SRJ" urn="urn:adsk.eagle:footprint:25924086/1" library_version="20">
+<wire x1="-30.15" y1="25.575" x2="30.15" y2="25.575" width="0.127" layer="21"/>
+<wire x1="-30.15" y1="-25.575" x2="30.15" y2="-25.575" width="0.127" layer="21"/>
+<wire x1="-26.4" y1="22.225" x2="26.4" y2="22.225" width="0.127" layer="21"/>
+<wire x1="-26.4" y1="-17.375" x2="26.4" y2="-17.375" width="0.127" layer="21"/>
+<wire x1="-30.15" y1="-25.575" x2="-30.15" y2="25.575" width="0.127" layer="21"/>
+<wire x1="30.15" y1="-25.575" x2="30.15" y2="25.575" width="0.127" layer="21"/>
+<wire x1="26.4" y1="-17.375" x2="26.4" y2="22.225" width="0.127" layer="21"/>
+<wire x1="-26.4" y1="-17.375" x2="-26.4" y2="22.225" width="0.127" layer="21"/>
+<wire x1="-12.25" y1="13.85" x2="12.25" y2="13.85" width="0.127" layer="51"/>
+<wire x1="12.25" y1="13.85" x2="12.25" y2="10.65" width="0.127" layer="51"/>
+<wire x1="12.25" y1="10.65" x2="-12.25" y2="10.65" width="0.127" layer="51"/>
+<wire x1="-12.25" y1="10.65" x2="-12.25" y2="13.85" width="0.127" layer="51"/>
+<wire x1="-12.25" y1="13.85" x2="-12.25" y2="14.45" width="0.127" layer="51"/>
+<wire x1="-12.25" y1="14.45" x2="12.25" y2="14.45" width="0.127" layer="51"/>
+<wire x1="12.25" y1="14.45" x2="12.25" y2="13.85" width="0.127" layer="51"/>
+<wire x1="-12.25" y1="11.92" x2="-12.25" y2="14.45" width="0.127" layer="21"/>
+<wire x1="-12.25" y1="14.45" x2="12.25" y2="14.45" width="0.127" layer="21"/>
+<wire x1="12.25" y1="14.45" x2="12.25" y2="11.92" width="0.127" layer="21"/>
+<wire x1="-11.48" y1="10.65" x2="11.48" y2="10.65" width="0.127" layer="21"/>
+<wire x1="-12.5" y1="14.7" x2="12.5" y2="14.7" width="0.05" layer="39"/>
+<wire x1="12.5" y1="14.7" x2="12.5" y2="10.4" width="0.05" layer="39"/>
+<wire x1="12.5" y1="10.4" x2="-12.5" y2="10.4" width="0.05" layer="39"/>
+<wire x1="-12.5" y1="10.4" x2="-12.5" y2="14.7" width="0.05" layer="39"/>
+<smd name="GND" x="10.97" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="GND2" x="10.47" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="IOVCC" x="9.97" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="VCI" x="9.47" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="IM3" x="8.97" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="IM1" x="8.47" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="IM0" x="7.97" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="SDA" x="7.47" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="VSYNC" x="6.97" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="HSYNC" x="6.47" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="DOTCLK" x="5.97" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="ENABLE" x="5.47" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="RD" x="4.97" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="WR(SPI-RS)" x="4.47" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="RS(SPI-SCL)" x="3.97" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="CS" x="3.47" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="RESET" x="2.97" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="DB17" x="2.47" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="DB16" x="1.97" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="DB15" x="1.47" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="DB14" x="0.97" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="DB13" x="0.47" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="DB12" x="-0.03" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="DB11" x="-0.53" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="DB10" x="-1.03" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="DB09" x="-1.53" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="DB08" x="-2.03" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="DB07" x="-2.53" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="DB06" x="-3.03" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="DB05" x="-3.53" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="DB04" x="-4.03" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="DB03" x="-4.53" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="DB02" x="-5.03" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="DB01" x="-5.53" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="DB00" x="-6.03" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="LEDK1" x="-6.53" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="LEDK2" x="-7.03" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="LEDK3" x="-7.53" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="LEDK4" x="-8.03" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="LEDA" x="-8.53" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="XR" x="-9.03" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="YU" x="-9.53" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="XL" x="-10.03" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="YD" x="-10.53" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="GND3" x="-11.03" y="13.61" dx="0.3" dy="0.8" layer="1"/>
+<smd name="S2" x="-12" y="11.2" dx="0.4" dy="0.8" layer="1"/>
+<smd name="S1" x="12" y="11.2" dx="0.4" dy="0.8" layer="1"/>
+<circle x="11.15" y="15" radius="0.1" width="0.2" layer="21"/>
+<circle x="11.15" y="15" radius="0.1" width="0.2" layer="51"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOT23-5-1" urn="urn:adsk.eagle:package:12566910/2" type="model" library_version="2">
@@ -8612,12 +8698,12 @@ Reduced openings in tStop, pins spread a tiny bit out to hold part on PCB during
 <packageinstance name="LED_DUOLED-A-3MM"/>
 </packageinstances>
 </package3d>
-<package3d name="KD026LQTMA008" urn="urn:adsk.eagle:package:21234581/2" type="box" library_version="19" library_locally_modified="yes">
+<package3d name="KD026LQTMA008" urn="urn:adsk.eagle:package:21234581/3" type="box" library_version="20">
 <packageinstances>
 <packageinstance name="KD026LQTMA008"/>
 </packageinstances>
 </package3d>
-<package3d name="MGB-001-ESP32-LITE" urn="urn:adsk.eagle:package:25781132/1" type="empty" library_version="19" library_locally_modified="yes">
+<package3d name="MGB-001-ESP32-LITE" urn="urn:adsk.eagle:package:25781132/2" type="empty" library_version="20">
 <packageinstances>
 <packageinstance name="MGB-001-ESP32-LITE"/>
 </packageinstances>
@@ -8625,6 +8711,11 @@ Reduced openings in tStop, pins spread a tiny bit out to hold part on PCB during
 <package3d name="MGB-001-ESP32" urn="urn:adsk.eagle:package:12566905/9" type="box" library_version="19" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="MGB-001-ESP32"/>
+</packageinstances>
+</package3d>
+<package3d name="KD026LQTMA008-FH34SRJ" urn="urn:adsk.eagle:package:25924087/1" type="box" library_version="20">
+<packageinstances>
+<packageinstance name="KD026LQTMA008-FH34SRJ"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -10052,7 +10143,7 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 </device>
 </devices>
 </deviceset>
-<deviceset name="MGB-001" urn="urn:adsk.eagle:component:12566932/10" library_version="19" library_locally_modified="yes">
+<deviceset name="MGB-001" urn="urn:adsk.eagle:component:12566932/11" library_version="20">
 <description>&lt;h1&gt;MGB-001&lt;/h1&gt;
 &lt;h3&gt;Game Boy Pocket&lt;/h3&gt;
 This is the footprint and dimensions outline for the Game Boy Pocket PCB&lt;br&gt;&lt;br&gt;
@@ -10084,7 +10175,7 @@ This is the footprint and dimensions outline for the Game Boy Pocket PCB&lt;br&g
 </device>
 <device name="MGB-001-ESP32-LITE" package="MGB-001-ESP32-LITE">
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25781132/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25781132/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -10127,7 +10218,7 @@ Source: Kingbright .. 2_colour_led_.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="KD026LQTMA008" urn="urn:adsk.eagle:component:21234582/3" library_version="19" library_locally_modified="yes">
+<deviceset name="KD026LQTMA008" urn="urn:adsk.eagle:component:21234582/4" library_version="20">
 <gates>
 <gate name="G$1" symbol="KD026LQTMA008" x="-2.54" y="0"/>
 </gates>
@@ -10181,7 +10272,62 @@ Source: Kingbright .. 2_colour_led_.pdf</description>
 <connect gate="G$1" pin="YU" pad="YU"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:21234581/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:21234581/3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="KD026LQTMA008-FH34SRJ" package="KD026LQTMA008-FH34SRJ">
+<connects>
+<connect gate="G$1" pin="CS" pad="CS"/>
+<connect gate="G$1" pin="DB00" pad="DB00"/>
+<connect gate="G$1" pin="DB01" pad="DB01"/>
+<connect gate="G$1" pin="DB02" pad="DB02"/>
+<connect gate="G$1" pin="DB03" pad="DB03"/>
+<connect gate="G$1" pin="DB04" pad="DB04"/>
+<connect gate="G$1" pin="DB05" pad="DB05"/>
+<connect gate="G$1" pin="DB06" pad="DB06"/>
+<connect gate="G$1" pin="DB07" pad="DB07"/>
+<connect gate="G$1" pin="DB08" pad="DB08"/>
+<connect gate="G$1" pin="DB09" pad="DB09"/>
+<connect gate="G$1" pin="DB10" pad="DB10"/>
+<connect gate="G$1" pin="DB11" pad="DB11"/>
+<connect gate="G$1" pin="DB12" pad="DB12"/>
+<connect gate="G$1" pin="DB13" pad="DB13"/>
+<connect gate="G$1" pin="DB14" pad="DB14"/>
+<connect gate="G$1" pin="DB15" pad="DB15"/>
+<connect gate="G$1" pin="DB16" pad="DB16"/>
+<connect gate="G$1" pin="DB17" pad="DB17"/>
+<connect gate="G$1" pin="DOTCLK" pad="DOTCLK"/>
+<connect gate="G$1" pin="ENABLE" pad="ENABLE"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND1" pad="GND2"/>
+<connect gate="G$1" pin="GND3" pad="GND3"/>
+<connect gate="G$1" pin="HSYNC" pad="HSYNC"/>
+<connect gate="G$1" pin="IM0" pad="IM0"/>
+<connect gate="G$1" pin="IM1" pad="IM1"/>
+<connect gate="G$1" pin="IM3" pad="IM3"/>
+<connect gate="G$1" pin="IOVCC" pad="IOVCC"/>
+<connect gate="G$1" pin="LEDA" pad="LEDA"/>
+<connect gate="G$1" pin="LEDK1" pad="LEDK1"/>
+<connect gate="G$1" pin="LEDK2" pad="LEDK2"/>
+<connect gate="G$1" pin="LEDK3" pad="LEDK3"/>
+<connect gate="G$1" pin="LEDK4" pad="LEDK4"/>
+<connect gate="G$1" pin="RD" pad="RD"/>
+<connect gate="G$1" pin="RESET" pad="RESET"/>
+<connect gate="G$1" pin="RS(SPI-SCL)" pad="RS(SPI-SCL)"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="VCI" pad="VCI"/>
+<connect gate="G$1" pin="VSYNC" pad="VSYNC"/>
+<connect gate="G$1" pin="WR(SPI-RS)" pad="WR(SPI-RS)"/>
+<connect gate="G$1" pin="XL" pad="XL"/>
+<connect gate="G$1" pin="XR" pad="XR"/>
+<connect gate="G$1" pin="YD" pad="YD"/>
+<connect gate="G$1" pin="YU" pad="YU"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25924087/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -11813,16 +11959,16 @@ CONN_06
 <attribute name="MPN" value="MA12RTR"/>
 <attribute name="PROD_ID" value="SWITCH SLIDE SPDT 300MA 4V"/>
 </part>
-<part name="U4" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="MCP73831/2" device="" package3d_urn="urn:adsk.eagle:package:12566910/2" override_package3d_urn="urn:adsk.eagle:package:12547661/2" override_package_urn="urn:adsk.eagle:footprint:12547662/1" override_locally_modified="yes" value="MCP73831T-2ACI/OT">
-<attribute name="MPN" value="MCP73831T-2ACI/OT"/>
+<part name="U4" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="MCP73831/2" device="" package3d_urn="urn:adsk.eagle:package:12566910/2" override_package3d_urn="urn:adsk.eagle:package:12547661/2" override_package_urn="urn:adsk.eagle:footprint:12547662/1" override_locally_modified="yes" value="MCP73832T-2ACI/OT">
+<attribute name="MPN" value="MCP73832T-2ACI/OT"/>
 </part>
 <part name="C1" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="CAP_CERAMIC" device="" package3d_urn="urn:adsk.eagle:package:12567032/2" override_package3d_urn="urn:adsk.eagle:package:12547837/2" override_package_urn="urn:adsk.eagle:footprint:12547838/1" override_locally_modified="yes" value="10uF">
 <attribute name="MPN" value="CL10A106MP8NNNC"/>
 </part>
 <part name="U$33" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="GND" device=""/>
 <part name="U$36" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="GND" device=""/>
-<part name="R1" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="RESISTOR" device="0603MINI" package3d_urn="urn:adsk.eagle:package:12566926/2" override_package3d_urn="urn:adsk.eagle:package:11314452/2" override_package_urn="urn:adsk.eagle:footprint:11314453/1" override_locally_modified="yes" value="4.7K">
-<attribute name="MPN" value="ERJ-PA3J472V"/>
+<part name="R1" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="RESISTOR" device="0603MINI" package3d_urn="urn:adsk.eagle:package:12566926/2" override_package3d_urn="urn:adsk.eagle:package:11314452/2" override_package_urn="urn:adsk.eagle:footprint:11314453/1" override_locally_modified="yes" value="1.5K">
+<attribute name="MPN" value="ERJ-PA3J152V"/>
 </part>
 <part name="C4" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="CAP_CERAMIC" device="" package3d_urn="urn:adsk.eagle:package:12567032/2" override_package3d_urn="urn:adsk.eagle:package:11310099/2" override_package_urn="urn:adsk.eagle:footprint:11310100/1" override_locally_modified="yes" value="10uF">
 <attribute name="MPN" value="CL10A106MP8NNNC"/>
@@ -11837,8 +11983,8 @@ CONN_06
 </part>
 <part name="U$29" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="GND" device=""/>
 <part name="U$30" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="GND" device=""/>
-<part name="U3" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="AP2112-3.3" device="" package3d_urn="urn:adsk.eagle:package:12566906/2" override_package3d_urn="urn:adsk.eagle:package:12547664/2" override_package_urn="urn:adsk.eagle:footprint:12547665/1" override_locally_modified="yes" value="AP2112-3.3">
-<attribute name="MPN" value="AP2112K-3.3TRG1"/>
+<part name="U3" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="AP2112-3.3" device="" package3d_urn="urn:adsk.eagle:package:12566906/2" override_package3d_urn="urn:adsk.eagle:package:12547664/2" override_package_urn="urn:adsk.eagle:footprint:12547665/1" override_locally_modified="yes" value="XC6210B332MR-G">
+<attribute name="MPN" value="XC6210B332MR-G"/>
 </part>
 <part name="D4" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="DIODE-SCHOTTKY" device="SOD-123" package3d_urn="urn:adsk.eagle:package:12566924/3" override_package3d_urn="urn:adsk.eagle:package:11309053/2" override_package_urn="urn:adsk.eagle:footprint:11309054/1" override_locally_modified="yes" value="MBR120">
 <attribute name="MPN" value="MBR120LSFT1G"/>
@@ -12023,8 +12169,8 @@ CONN_06
 <part name="C13" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="CAP_CERAMIC" device="" package3d_urn="urn:adsk.eagle:package:12567032/2" override_package3d_urn="urn:adsk.eagle:package:12547812/2" override_package_urn="urn:adsk.eagle:footprint:12547813/1" override_locally_modified="yes" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNNC"/>
 </part>
-<part name="U$17" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="MGB-001" device="MGB-001-ESP32-LITE" package3d_urn="urn:adsk.eagle:package:25781132/1" value="MGB-001MGB-001-ESP32-LITE"/>
-<part name="U$11" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="KD026LQTMA008" device="" package3d_urn="urn:adsk.eagle:package:21234581/2">
+<part name="U$17" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="MGB-001" device="MGB-001-ESP32-LITE" package3d_urn="urn:adsk.eagle:package:25781132/2" value="MGB-001MGB-001-ESP32-LITE"/>
+<part name="U$11" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="KD026LQTMA008" device="" package3d_urn="urn:adsk.eagle:package:21234581/3">
 <attribute name="MPN" value="FH34SRJ-45S-0.5SH(50)"/>
 </part>
 <part name="GND10" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="GND" device=""/>
@@ -12040,6 +12186,14 @@ CONN_06
 <part name="GND4" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="GND" device=""/>
 <part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_06" device="NO_SILK_NO_POP" package3d_urn="urn:adsk.eagle:package:38130/1"/>
 <part name="U$3" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="GND" device=""/>
+<part name="GND11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="GND6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="R24" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="RESISTOR" device="0603MINI" package3d_urn="urn:adsk.eagle:package:12566926/2" override_package3d_urn="urn:adsk.eagle:package:12547690/2" override_package_urn="urn:adsk.eagle:footprint:12547691/1" override_locally_modified="yes" value="5.1K">
+<attribute name="MPN" value="ERJ-PA3F5101V"/>
+</part>
+<part name="R22" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="RESISTOR" device="0603MINI" package3d_urn="urn:adsk.eagle:package:12566926/2" override_package3d_urn="urn:adsk.eagle:package:12547690/2" override_package_urn="urn:adsk.eagle:footprint:12547691/1" override_locally_modified="yes" value="5.1K">
+<attribute name="MPN" value="ERJ-PA3F5101V"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -12783,14 +12937,30 @@ CONN_06
 <attribute name="VALUE" x="38.1" y="38.1" size="1.778" layer="96"/>
 <attribute name="MPN" x="50.8" y="53.34" size="1.27" layer="96" display="off"/>
 </instance>
-<instance part="GND7" gate="1" x="76.2" y="45.72" smashed="yes" rot="R90">
-<attribute name="VALUE" x="78.74" y="43.18" size="1.778" layer="96" font="vector" rot="R90"/>
+<instance part="GND7" gate="1" x="73.66" y="43.18" smashed="yes" rot="R90">
+<attribute name="VALUE" x="76.2" y="40.64" size="1.778" layer="96" font="vector" rot="R90"/>
 </instance>
 <instance part="GND5" gate="1" x="71.12" y="50.8" smashed="yes" rot="R90">
 <attribute name="VALUE" x="73.66" y="48.26" size="1.778" layer="96" font="vector" rot="R90"/>
 </instance>
 <instance part="GND8" gate="1" x="30.48" y="50.8" smashed="yes" rot="R270">
 <attribute name="VALUE" x="27.94" y="53.34" size="1.778" layer="96" font="vector" rot="R270"/>
+</instance>
+<instance part="GND11" gate="1" x="45.72" y="10.16" smashed="yes">
+<attribute name="VALUE" x="43.18" y="7.62" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="GND6" gate="1" x="55.88" y="10.16" smashed="yes">
+<attribute name="VALUE" x="53.34" y="7.62" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="R24" gate="G$1" x="45.72" y="20.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="43.18" y="20.32" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="VALUE" x="48.26" y="20.32" size="1.016" layer="96" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="MPN" x="45.72" y="20.32" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R22" gate="G$1" x="55.88" y="20.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="53.34" y="20.32" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="VALUE" x="58.42" y="20.32" size="1.016" layer="96" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="MPN" x="55.88" y="20.32" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -12823,25 +12993,39 @@ CONN_06
 </segment>
 <segment>
 <pinref part="J6" gate="G$1" pin="GND"/>
-<wire x1="68.58" y1="43.18" x2="73.66" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="43.18" x2="71.12" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="J6" gate="G$1" pin="SBU2"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="68.58" y1="50.8" x2="68.58" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="J6" gate="G$1" pin="DN2"/>
+<junction x="68.58" y="50.8"/>
 </segment>
 <segment>
 <pinref part="J6" gate="G$1" pin="SBU1"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="33.02" y1="50.8" x2="33.02" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="J6" gate="G$1" pin="DN1"/>
+<junction x="33.02" y="50.8"/>
+</segment>
+<segment>
+<pinref part="GND11" gate="1" pin="GND"/>
+<wire x1="45.72" y1="12.7" x2="45.72" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="R24" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="GND6" gate="1" pin="GND"/>
+<wire x1="55.88" y1="12.7" x2="55.88" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="R22" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="VBUS" class="0">
 <segment>
 <pinref part="J6" gate="G$1" pin="VBUS"/>
-<wire x1="68.58" y1="60.96" x2="73.66" y2="63.5" width="0.1524" layer="91"/>
-<label x="76.2" y="63.5" size="1.27" layer="95" xref="yes"/>
+<wire x1="68.58" y1="60.96" x2="73.66" y2="60.96" width="0.1524" layer="91"/>
+<label x="76.2" y="60.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
@@ -12903,6 +13087,30 @@ CONN_06
 <wire x1="60.96" y1="99.06" x2="71.12" y2="99.06" width="0.1524" layer="91"/>
 <junction x="60.96" y="99.06"/>
 <label x="73.66" y="99.06" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CC1" class="0">
+<segment>
+<wire x1="55.88" y1="25.4" x2="55.88" y2="27.94" width="0.1524" layer="91"/>
+<label x="55.88" y="27.94" size="1.27" layer="95" font="vector" rot="R90" xref="yes"/>
+<pinref part="R22" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="J6" gate="G$1" pin="CC1"/>
+<wire x1="33.02" y1="55.88" x2="30.48" y2="55.88" width="0.1524" layer="91"/>
+<label x="27.94" y="55.88" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="CC2" class="0">
+<segment>
+<wire x1="45.72" y1="27.94" x2="45.72" y2="25.4" width="0.1524" layer="91"/>
+<label x="45.72" y="27.94" size="1.27" layer="95" font="vector" rot="R90" xref="yes"/>
+<pinref part="R24" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="J6" gate="G$1" pin="CC2"/>
+<wire x1="68.58" y1="55.88" x2="71.12" y2="55.88" width="0.1524" layer="91"/>
+<label x="73.66" y="55.88" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
