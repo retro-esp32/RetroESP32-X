@@ -12171,7 +12171,7 @@ CONN_06
 </part>
 <part name="U$17" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="MGB-001" device="MGB-001-ESP32-LITE" package3d_urn="urn:adsk.eagle:package:25781132/2" value="MGB-001MGB-001-ESP32-LITE"/>
 <part name="U$11" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="KD026LQTMA008" device="" package3d_urn="urn:adsk.eagle:package:21234581/3">
-<attribute name="MPN" value="FH34SRJ-45S-0.5SH(50)"/>
+<attribute name="MPN" value="0541324562"/>
 </part>
 <part name="GND10" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="GND" device=""/>
 <part name="GND13" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="GND" device=""/>

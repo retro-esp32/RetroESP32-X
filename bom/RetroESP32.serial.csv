@@ -1,36 +1,27 @@
-"Qty";"Value";"Device";"Package";"Parts";"Description";"DESCRIPTION";"DIGI-KEY_PART_NUMBER";"DIGI-KEY_PURCHASE_URL";"IGNORE_BOM";"MF";"MP";"MPN";"NO_BOM";"PACKAGE";"PROD_ID";"PURCHASE-URL";"SF_ID";"SF_SKU";"SKU";"TP_SIGNAL_NAME";
-"1";"";"CONN_06NO_SILK_NO_POP";"1X06_NO_SILK";"J4";"Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
-"1";"0.1uF";"CAP_CERAMIC";"0603-MINI-CAP";"C13";"Ceramic Capacitors";"";"";"";"";"";"";"CL10B104KB8NNNC";"";"";"";"";"";"";"";"";
-"2";"1.5K";"RESISTOR0603MINI";"0603-MINI";"R1, R5";"Resistors";"";"";"";"";"";"";"ERJ-PA3J152V";"";"";"";"";"";"";"";"";
-"5";"100K";"RESISTOR0603MINI";"0603-MINI";"R2, R3, R19, R20, R21";"Resistors";"";"";"";"";"";"";"ERJ-PA3J104V";"";"";"";"";"";"";"";"";
-"1";"100uF";"CAP_TANTALUMA/3216_WAVE";"EIA3216-18/A-W";"C10";"Tantalum Capacitors";"";"";"";"";"";"";"F930J107KAA";"";"";"";"";"";"";"";"";
-"8";"10K";"RESISTOR0603MINI";"0603-MINI";"R6, R9, R10, R11, R12, R13, R14, R15";"Resistors";"";"";"";"";"";"";"ERJ-PA3J103V";"";"";"";"";"";"";"";"";
-"4";"10uF";"CAP_CERAMIC";"0603-MINI-CAP";"C1, C2, C4, C6";"Ceramic Capacitors";"";"";"";"";"";"";"CL10A106MP8NNNC";"";"";"";"";"";"";"";"";
-"1";"150 Ohm";"RESISTOR0603MINI";"0603-MINI";"R18";"Resistors";"";"";"";"";"";"";"ERJ-PA3J151V";"";"";"";"";"";"";"";"";
-"4";"1uF";"CAP_CERAMIC";"0603-MINI-CAP";"C3, C8, C9, C14";"Ceramic Capacitors";"";"";"";"";"";"";"CL10A105KP8NNNC";"";"";"";"";"";"";"";"";
-"1";"220pF";"CAP_CERAMIC";"0603-MINI-CAP";"C7";"Ceramic Capacitors";"";"";"";"";"";"";"CL10C221JB8NNNC";"";"";"";"";"";"";"";"";
-"2";"27k";"THUMBWHEEL";"THUMBWHEEL";"R16, R17";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
-"1";"470";"RESISTOR0603MINI";"0603-MINI";"R4";"Resistors";"";"";"";"";"";"";"ERJ-PA3J471V";"";"";"";"";"";"";"";"";
-"2";"5.1K";"RESISTOR0603MINI";"0603-MINI";"R22, R24";"Resistors";"";"";"";"";"";"";"ERJ-PA3F5101V";"";"";"";"";"";"";"";"";
-"1";"503182-1852_503182-1852";"503182-1852_503182-1852";"503182-1852_MOLEX_503182-1852";"J5";"Conn Micro SD Card M 8 POS 1.09mm Solder RA SMD Embossed T/R 0.5A/Contact";" MICRO SD NORMAL ULTRALOWPRO8CKTE ";"WM12834CT-ND";"https://www.digikey.ca/product-detail/en/molex/5031821852/WM12834CT-ND/5823232?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol";"";"Molex";"5031821852";"5031821852";"";"None";"";"";"";"";"";"";
-"1";"AUDIO_JACK_3.5MM_KIT";"AUDIO_JACK_3.5MM_KIT";"AUDIO-JACK-KIT";"J1";"Audio Jack";"";"";"";"";"";"";"SJ1-3525NG-GR";"";"";"CONN-10353";"";"PRT-08032";"";"";"";
-"1";"Batt Conn";"JST_2MM_MALE";"JST-2-SMD";"J3";"JST 2MM MALE RA CONNECTOR";"";"";"";"";"";"";"S2B-PH-SM4-TB(LF)(SN)";"";"";"CONN-11443";"";"PRT-08612";"";"";"";
-"4";"CONDUCTIVE_BUTTONCONDUCTIVE_BUTTON_DIRECTIONAL_THICK";"CONDUCTIVE_BUTTONCONDUCTIVE_BUTTON_DIRECTIONAL_THICK";"CONDUCTIVE_BUTTON_DIRECTIONAL_THICK";"DOWN, LEFT, RIGHT, UP";"";"";"";"";"TRUE";"";"";"";"";"";"";"";"";"";"";"";
-"2";"CONDUCTIVE_BUTTONCONDUCTIVE_BUTTON_THICK";"CONDUCTIVE_BUTTONCONDUCTIVE_BUTTON_THICK";"CONDUCTIVE_BUTTON_THICK";"A, B";"";"";"";"";"TRUE";"";"";"";"";"";"";"";"";"";"";"";
-"2";"CONDUCTIVE_BUTTON_STARTSELECTCONDUCTIVE_BUTTON_THICK_STARTSELECT";"CONDUCTIVE_BUTTON_STARTSELECTCONDUCTIVE_BUTTON_THICK_STARTSELECT";"CONDUCTIVE_BUTTON_THICK_STARTSELECT";"SELECT, START";"";"";"";"";"TRUE";"";"";"";"";"";"";"";"";"";"";"";
-"1";"DMG3415U-7";"MOSFET-P";"SOT23-R";"Q3";"P-Channel Mosfet";"";"";"";"";"";"";"DMG3415U-7";"";"";"";"";"";"";"";"";
-"1";"ESP32-WROVER_ESP32-WROVER";"ESP32-WROVER_ESP32-WROVER";"ESP32-WROVER_ESP32-WROVER";"U1";"";"";"";"";"";"";"";"ESP32-WROVER (16MB)";"";"";"";"";"";"";"";"";
-"1";"GND";"TESTPADTP18R";"TESTPAD";"GND";"TEST PIN";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
-"1";"KD026LQTMA008";"KD026LQTMA008";"KD026LQTMA008";"U$11";"";"";"";"";"";"";"";"FH34SRJ-45S-0.5SH(50)";"";"";"";"";"";"";"";"";
-"1";"LED_L-115WEGW-CA";"LED_L-115WEGW-CA";"LED_DUOLED-A-3MM";"LED2";"T-1(3mm) BI-COLOR INDICATOR LAMP";"";"";"";"";"";"";"SSL-LX3059IGW";"";"";"";"";"";"";"";"";
-"1";"LM4875";"LM4875";"SOIC8";"U6";"";"";"";"";"";"";"";"LM4875MX/NOPB";"";"";"";"";"";"";"";"";
-"1";"MBR120";"DIODE-SCHOTTKYSOD-123";"SOD-123";"D4";"";"";"";"";"";"";"";"MBR120LSFT1G";"";"";"";"";"";"";"";"";
-"1";"MCP73832T-2ACI/OT";"MCP73831/2";"SOT23-5-1";"U4";"MCP73831/2 LIPO Charger";"";"";"";"";"";"";"MCP73832T-2ACI/OT";"";"";"";"";"";"";"";"";
-"1";"MGB-001MGB-001-ESP32-LITE";"MGB-001MGB-001-ESP32-LITE";"MGB-001-ESP32-LITE";"U$17";"MGB-001";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
-"1";"RETIRED_SWITCH_SPDT";"RETIRED_SWITCH_SPDT";"RETIRED_KPS-1290";"S3";"SWCH-10651";"";"";"";"";"";"";"MA12RTR";"";"";"SWITCH SLIDE SPDT 300MA 4V";"";"";"";"";"";
-"1";"SPKR";"CONN_02";"1X02";"J2";"Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections";"";"";"";"";"";"";"";"";"";"CONN-13512";"";"PRT-09918";"PRT-08432";"PRT-09914";"";
-"2";"SWITCHES_MOMENTARY-SWITCH-SPST-SMD-4.6X2.8MM";"SWITCHES_MOMENTARY-SWITCH-SPST-SMD-4.6X2.8MM";"SWITCHES_TACTILE_SWITCH_SMD_4.6X2.8MM";"S1, S2";"Momentary Switch (Pushbutton) - SPST";"";"";"";"";"";"";"KMR221GLFS";"";"";"COMP-12265";"";"";"COM-12993";"";"";
-"9";"TESTPADTP18R";"TESTPADTP18R";"TESTPAD";"3V3, BACKLIGHT, GPIO0, RESET, SOURCE, SUPPLY, VBAT, VBUS, VOLUME";"TEST PIN";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
-"1";"USB4110-GF-A";"USB4110-GF-A";"GCT_USB4110-GF-A";"J6";"CONN USB 2.0 TYPE-C R/A SMT";" USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle";" Through Hole ";"";"";"";"GCT";"USB4110-GF-A";"USB4105-GF-A";"";"None";"";"https://pricing.snapeda.com/search/part/USB4110-GF-A/?ref=eda";"";"";"";
-"1";"XC6210B332MR-G";"AP2112-3.3";"SOT23-5";"U3";"SOT23-5 Fixed Voltage Regulators";"";"";"";"";"";"";"XC6210B332MR-G";"";"";"";"";"";"";"";"";
-"2";"mmbt2222";"TRANSISTOR_NPNSOT23-3";"SOT23-3";"Q4, Q5";"Transistor NPN";"";"";"";"";"";"";"MMBT2222A-7-F";"";"";"";"";"";"";"";"";
+Qty,Designator,MPN,Purchase Link
+1,J1,SJ1-3525NG-GR,https://www.digikey.com/en/products/detail/cui-devices/SJ1-3525NG-GR/2295990?s=N4IgTCBcDaIMoCkCMBaAzAVjBgcgcRTwCUQBdAXyA
+1,C13,CL10B104KB8NNNC,https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNNC/3886658?s=N4IgTCBcDaIMIBkCMAGAQqgLAaTQDgDki4QBdAXyA
+4,"C1, C2, C4, C6",CL10A106MP8NNNC,https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A106MP8NNNC/3887529?s=N4IgTCBcDaIMIBkCMAGAgqgbAWQAoA4A5YuEAXQF8g
+4,"C3, C8, C9, C14",CL10A105KP8NNNC,https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A105KP8NNNC/3886840?s=N4IgTCBcDaIMIBkCMAGAgqgrAaQAoA4A5YuEAXQF8g
+1,C7,CL10C221JB8NNNC,https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10C221JB8NNNC/3886706?s=N4IgTCBcDaIMIBkCMAGOYxIFICEAcAckXCALoC%2BQA
+1,J5,5031821852,https://www.digikey.com/en/products/detail/molex/5031821852/4693482?s=N4IgTCBcDaIKwAYDMBGAHGdcIF0C%2BQA
+1,J6,USB4110-GF-A,https://www.digikey.com/en/products/detail/gct/USB4110-GF-A/10384547?s=N4IgTCBcDaIKoGUBCAWAjGgDAWgOIDFsBBEAXQF8g
+1,J3,S2B-PH-SM4-TB(LF)(SN),https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-PH-SM4-TB-LF-SN/926655?s=N4IgTCBcDaIMpgEIFoAKAJZcCyAWZAKogBQAyAYgJTFwBylIAugL5A
+1,U4,MCP73832T-2ACI/OT,https://www.digikey.com/en/products/detail/microchip-technology/MCP73832T-2ACI-OT/1223142?s=N4IgTCBcDaILIGEAKB2AzADjWAKgWjAEEEBJAegHkcQBdAXyA
+2,"S1, S2",KMR221GLFS,https://www.digikey.com/en/products/detail/c-k/KMR221GLFS/550472?s=N4IgTCBcDaINIFkBKYwEYDiAZAYgZRAF0BfIA
+1,Q3,DMG3415U-7,https://www.digikey.com/en/products/detail/diodes-incorporated/DMG3415U-7/2052768?s=N4IgTCBcDaICIFkDiBmALARgKwFUC0A7CALoC%2BQA
+2,"R1, R5",ERJ-PA3J152V,https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-PA3J152V/5035991?s=N4IgTCBcDaIKICUBSBaACgQQMxIIwFYwA1EAXQF8g
+5,"R2, R3, R19, R20, R21",ERJ-PA3J104V,https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-PA3J104V/5035972?s=N4IgTCBcDaIKICUBSBaACgQQMxIIwAYAWANRAF0BfIA
+8,"R6, R9, R10, R11, R12, R13, R14, R15",ERJ-PA3J103V,https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-PA3J103V/5035971?s=N4IgTCBcDaIKICUBSBaACgQQMxIIwAYsA1EAXQF8g
+1,R18,ERJ-PA3J151V,https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-PA3J151V/5035990?s=N4IgTCBcDaIKICUBSBaACgQQMxIIwFZcA1EAXQF8g
+1,R4,ERJ-PA3J471V,https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-PA3J471V/5036065?s=N4IgTCBcDaIKICUBSBaACgQQMxICwHYBGANRAF0BfIA
+2,"R22, R24",ERJ-PA3F5101V,https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-PA3F5101V/5035934?s=N4IgTCBcDaIKICUBSBaACgQQMwDECsAjAAwEBqIAugL5A
+1,U3,XC6210B332MR-G,https://www.digikey.com/en/products/detail/torex-semiconductor-ltd/XC6210B332MR-G/2138119?s=N4IgTCBcDaIBoGEBsYCMAGAQgZm2AsgEoC0A4iALoC%2BQA
+1,S3,MA12RTR,https://www.digikey.com/en/products/detail/apem-inc/MA12RTR/1795601?s=N4IgTCBcDaILIEECMYBKAVVIC6BfIA
+1,LED2,SSL-LX3059IGW,https://www.digikey.com/en/products/detail/lumex-opto-components-inc/SSL-LX3059IGW/242268
+1,C10,F930J107KAA,https://www.digikey.com/en/products/detail/kyocera-avx/F930J107KAA/4005275
+2,"Q4, Q5",MMBT2222A-7-F,https://www.digikey.com/en/products/detail/diodes-incorporated/MMBT2222A-7-F/814503
+1,U1,ESP32-WROVER (16MB),https://www.digikey.com/en/products/filter/rf-transceiver-modules-and-modems/872?s=N4IgTCBcDaIKIGUAKBmMBaA6gJQPIDU5sACACgEYA2AWQCEBKEAXQF8g
+1,U$11,541324562,https://www.digikey.com/en/products/detail/molex/0541324562/3197010
+1,U6,LM4875MX/NOPB,https://www.digikey.com/en/products/detail/texas-instruments/LM4875MX-NOPB/1871686?s=N4IgTCBcDaIDIFkAsAOA7AVgQDQPQDkB5ABQCEQBdAXyA
+1,D4,MBR120LSFT1G,https://www.digikey.com/en/products/detail/onsemi/MBR120LSFT1G/1748986?s=N4IgTCBcDaILICEBKBGMAGAMgZQGIBUUBxEAXQF8g
