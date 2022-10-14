@@ -3,6 +3,8 @@
 
 This is an updated release of the previous Retro ESP32 Commercial Hardware PCB.
 
+[Firmware is in another repo](https://github.com/retro-esp32/RetroESP32)
+
 ## What's Public
 
 - [x] PCB
