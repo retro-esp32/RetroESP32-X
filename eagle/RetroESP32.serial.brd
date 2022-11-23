@@ -632,7 +632,7 @@ KEMET S / EIA 3216-12</description>
 <text x="-8.013" y="-6.76096875" size="1.272059375" layer="25" rot="R90">&gt;NAME</text>
 <text x="9.27375" y="-6.76733125" size="1.273259375" layer="27" rot="R90">&gt;VALUE</text>
 </package>
-<package name="CONDUCTIVE_BUTTON_THICK_STARTSELECT" urn="urn:adsk.eagle:footprint:12566896/2" library_version="12" library_locally_modified="yes">
+<package name="CONDUCTIVE_BUTTON_THICK_STARTSELECT" urn="urn:adsk.eagle:footprint:12566896/2" locally_modified="yes" library_version="21" library_locally_modified="yes">
 <smd name="P$ACTIVE" x="3" y="1" dx="1.6" dy="1.6" layer="1" roundness="25"/>
 <smd name="P$ACTIVE1" x="-1" y="1" dx="1.6" dy="1.6" layer="1" roundness="25"/>
 <smd name="P$ACTIVE2" x="-3" y="-1" dx="1.6" dy="1.6" layer="1" roundness="25" rot="R180"/>
@@ -645,7 +645,7 @@ KEMET S / EIA 3216-12</description>
 <smd name="P$GND2" x="-1" y="-1" dx="1.6" dy="1.6" layer="1" roundness="25"/>
 <smd name="P$GND3" x="3" y="-1" dx="1.6" dy="1.6" layer="1" roundness="25"/>
 </package>
-<package name="CONDUCTIVE_BUTTON_THICK" urn="urn:adsk.eagle:footprint:12566895/2" library_version="8" library_locally_modified="yes">
+<package name="CONDUCTIVE_BUTTON_THICK" urn="urn:adsk.eagle:footprint:12566895/2" locally_modified="yes" library_version="21" library_locally_modified="yes">
 <circle x="0" y="0" radius="4" width="0" layer="39"/>
 <smd name="P$ACTIVE" x="0" y="-2.25" dx="3.5" dy="0.5" layer="1" rot="R270"/>
 <smd name="P$GND" x="0" y="2.25" dx="3.5" dy="0.5" layer="1" rot="R90"/>
@@ -765,6 +765,42 @@ KEMET S / EIA 3216-12</description>
 <vertex x="-3.75" y="0" curve="-90"/>
 <vertex x="0" y="3.75" curve="-90"/>
 <vertex x="3.75" y="0" curve="-80"/>
+</polygon>
+<polygon width="0.0254" layer="59">
+<vertex x="0" y="3"/>
+<vertex x="0" y="2.5" curve="-155"/>
+<vertex x="1" y="-2.29" curve="135"/>
+<vertex x="1" y="-2.83" curve="160"/>
+</polygon>
+<polygon width="0.0254" layer="59">
+<vertex x="0" y="2"/>
+<vertex x="0" y="1.5" curve="140"/>
+<vertex x="-1" y="-1.115" curve="-125"/>
+<vertex x="-1" y="-1.73" curve="-150"/>
+</polygon>
+<polygon width="0.0254" layer="59">
+<vertex x="0" y="1"/>
+<vertex x="0" y="0.5" curve="-120"/>
+<vertex x="0.43" y="-0.25" curve="135"/>
+<vertex x="0.97" y="-0.25" curve="105"/>
+</polygon>
+<polygon width="0.0254" layer="59">
+<vertex x="0" y="-3"/>
+<vertex x="0" y="-2.5" curve="-155"/>
+<vertex x="-1" y="2.29" curve="135"/>
+<vertex x="-1" y="2.83" curve="160"/>
+</polygon>
+<polygon width="0.0254" layer="59">
+<vertex x="0" y="-2"/>
+<vertex x="0" y="-1.5" curve="140"/>
+<vertex x="1" y="1.115" curve="-125"/>
+<vertex x="1" y="1.73" curve="-150"/>
+</polygon>
+<polygon width="0.0254" layer="59">
+<vertex x="0" y="-1"/>
+<vertex x="0" y="-0.5" curve="-120"/>
+<vertex x="-0.43" y="0.25" curve="135"/>
+<vertex x="-0.97" y="0.25" curve="105"/>
 </polygon>
 </package>
 <package name="THUMBWHEEL" urn="urn:adsk.eagle:footprint:12566878/3" library_version="18" library_locally_modified="yes">
@@ -4107,7 +4143,7 @@ Source: Kingbright .. 2_colour_led_.pdf</description>
 <text x="3.81" y="2.54" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="3.81" y="-2.54" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="CONDUCTIVE_BUTTON_DIRECTIONAL_THICK" urn="urn:adsk.eagle:footprint:12566894/5" library_version="14">
+<package name="CONDUCTIVE_BUTTON_DIRECTIONAL_THICK" urn="urn:adsk.eagle:footprint:12566894/5" locally_modified="yes" library_version="21" library_locally_modified="yes">
 <circle x="0" y="0" radius="4" width="0" layer="39"/>
 <smd name="P$ACTIVE" x="0.875" y="1.75" dx="2.4" dy="0.4" layer="1" rot="R75"/>
 <smd name="P$GND" x="0.875" y="-1.75" dx="2.4" dy="0.4" layer="1" rot="R285"/>
@@ -4142,6 +4178,16 @@ Source: Kingbright .. 2_colour_led_.pdf</description>
 <vertex x="0.85" y="0.35" curve="-30"/>
 </polygon>
 <polygon width="0.0254" layer="31">
+<vertex x="0.85" y="-0.35" curve="25"/>
+<vertex x="-3.4" y="-0.85" curve="100"/>
+<vertex x="1.65" y="-3.1" curve="-30"/>
+</polygon>
+<polygon width="0.127" layer="59">
+<vertex x="1.65" y="3.1" curve="100"/>
+<vertex x="-3.4" y="0.85" curve="25"/>
+<vertex x="0.85" y="0.35" curve="-30"/>
+</polygon>
+<polygon width="0.127" layer="59">
 <vertex x="0.85" y="-0.35" curve="25"/>
 <vertex x="-3.4" y="-0.85" curve="100"/>
 <vertex x="1.65" y="-3.1" curve="-30"/>
@@ -4468,12 +4514,12 @@ KEMET S / EIA 3216-12</description>
 <packageinstance name="503182-1852_MOLEX_503182-1852"/>
 </packageinstances>
 </package3d>
-<package3d name="CONDUCTIVE_BUTTON_THICK_STARTSELECT" urn="urn:adsk.eagle:package:12566911/3" type="box" library_version="12" library_locally_modified="yes">
+<package3d name="CONDUCTIVE_BUTTON_THICK_STARTSELECT" urn="urn:adsk.eagle:package:12566911/3" type="box" library_version="21" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="CONDUCTIVE_BUTTON_THICK_STARTSELECT"/>
 </packageinstances>
 </package3d>
-<package3d name="CONDUCTIVE_BUTTON_THICK" urn="urn:adsk.eagle:package:12566912/3" type="box" library_version="8" library_locally_modified="yes">
+<package3d name="CONDUCTIVE_BUTTON_THICK" urn="urn:adsk.eagle:package:12566912/3" type="box" library_version="21" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="CONDUCTIVE_BUTTON_THICK"/>
 </packageinstances>
@@ -4528,7 +4574,7 @@ Reduced openings in tStop, pins spread a tiny bit out to hold part on PCB during
 <packageinstance name="LED_DUOLED-A-3MM"/>
 </packageinstances>
 </package3d>
-<package3d name="CONDUCTIVE_BUTTON_DIRECTIONAL_THICK" urn="urn:adsk.eagle:package:12566913/7" type="box" library_version="14">
+<package3d name="CONDUCTIVE_BUTTON_DIRECTIONAL_THICK" urn="urn:adsk.eagle:package:12566913/7" type="box" library_version="21" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="CONDUCTIVE_BUTTON_DIRECTIONAL_THICK"/>
 </packageinstances>
@@ -5018,7 +5064,7 @@ design rules under a new name.</description>
 <element name="SELECT" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" package="CONDUCTIVE_BUTTON_THICK_STARTSELECT" package3d_urn="urn:adsk.eagle:package:12566911/3" value="CONDUCTIVE_BUTTON_STARTSELECTCONDUCTIVE_BUTTON_THICK_STARTSELECT" x="29.055" y="16.01" smashed="yes">
 <attribute name="IGNORE_BOM" value="TRUE" x="29.055" y="16.01" size="1.778" layer="27" display="off"/>
 </element>
-<element name="B" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" package="CONDUCTIVE_BUTTON_THICK" package3d_urn="urn:adsk.eagle:package:12566912/3" override_package3d_urn="urn:adsk.eagle:package:12566912/4" override_package_urn="urn:adsk.eagle:footprint:12566895/2" value="CONDUCTIVE_BUTTONCONDUCTIVE_BUTTON_THICK" x="47.92" y="34.71" smashed="yes" rot="R180">
+<element name="B" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" package="CONDUCTIVE_BUTTON_THICK" package3d_urn="urn:adsk.eagle:package:12566912/3" override_package3d_urn="urn:adsk.eagle:package:12566912/4" override_package_urn="urn:adsk.eagle:footprint:12566895/2" override_locally_modified="yes" value="CONDUCTIVE_BUTTONCONDUCTIVE_BUTTON_THICK" x="47.92" y="34.71" smashed="yes" rot="R180">
 <attribute name="IGNORE_BOM" value="TRUE" x="47.92" y="34.71" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="A" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" package="CONDUCTIVE_BUTTON_THICK" package3d_urn="urn:adsk.eagle:package:12566912/3" value="CONDUCTIVE_BUTTONCONDUCTIVE_BUTTON_THICK" x="61.97" y="39.2" smashed="yes" rot="R180">
