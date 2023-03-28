@@ -658,59 +658,30 @@ KEMET S / EIA 3216-12</description>
 <vertex x="-0.97" y="0.25" curve="105"/>
 </polygon>
 <polygon width="0" layer="41">
-<vertex x="0.5" y="-3.75"/>
+<vertex x="0.5" y="-4.25"/>
 <vertex x="0.5" y="-2"/>
 <vertex x="-0.5" y="-2"/>
-<vertex x="-0.5" y="-3.75" curve="-80"/>
-<vertex x="-3.75" y="0" curve="-90"/>
-<vertex x="0" y="3.75" curve="-90"/>
-<vertex x="3.75" y="0" curve="-80"/>
+<vertex x="-0.5" y="-4.25" curve="-80"/>
+<vertex x="-4.25" y="0"/>
+<vertex x="4.25" y="0" curve="-80"/>
 </polygon>
-<polygon width="0.0254" layer="59">
-<vertex x="0" y="3"/>
-<vertex x="0" y="2.5" curve="-155"/>
-<vertex x="1" y="-2.29" curve="135"/>
-<vertex x="1" y="-2.83" curve="160"/>
-</polygon>
-<polygon width="0.0254" layer="59">
-<vertex x="0" y="2"/>
-<vertex x="0" y="1.5" curve="140"/>
-<vertex x="-1" y="-1.115" curve="-125"/>
-<vertex x="-1" y="-1.73" curve="-150"/>
-</polygon>
-<polygon width="0.0254" layer="59">
-<vertex x="0" y="1"/>
-<vertex x="0" y="0.5" curve="-120"/>
-<vertex x="0.43" y="-0.25" curve="135"/>
-<vertex x="0.97" y="-0.25" curve="105"/>
-</polygon>
-<polygon width="0.0254" layer="59">
-<vertex x="0" y="-3"/>
-<vertex x="0" y="-2.5" curve="-155"/>
-<vertex x="-1" y="2.29" curve="135"/>
-<vertex x="-1" y="2.83" curve="160"/>
-</polygon>
-<polygon width="0.0254" layer="59">
-<vertex x="0" y="-2"/>
-<vertex x="0" y="-1.5" curve="140"/>
-<vertex x="1" y="1.115" curve="-125"/>
-<vertex x="1" y="1.73" curve="-150"/>
-</polygon>
-<polygon width="0.0254" layer="59">
-<vertex x="0" y="-1"/>
-<vertex x="0" y="-0.5" curve="-120"/>
-<vertex x="-0.43" y="0.25" curve="135"/>
-<vertex x="-0.97" y="0.25" curve="105"/>
+<polygon width="0" layer="41">
+<vertex x="-0.5" y="4.25"/>
+<vertex x="-0.5" y="2"/>
+<vertex x="0.5" y="2"/>
+<vertex x="0.5" y="4.25" curve="-80"/>
+<vertex x="4.25" y="0"/>
+<vertex x="-4.25" y="0" curve="-80"/>
 </polygon>
 </package>
 <package name="CONDUCTIVE_BUTTON_DIRECTIONAL_THICK" urn="urn:adsk.eagle:footprint:12566894/5" locally_modified="yes" library_version="21" library_locally_modified="yes">
-<circle x="0" y="0" radius="4" width="0" layer="39"/>
+<circle x="0" y="0" locked="yes" radius="4" width="0" layer="39"/>
 <smd name="P$ACTIVE" x="0.875" y="1.75" dx="2.4" dy="0.4" layer="1" rot="R75"/>
 <smd name="P$GND" x="0.875" y="-1.75" dx="2.4" dy="0.4" layer="1" rot="R285"/>
 <polygon width="0.0762" layer="41">
-<vertex x="1.5" y="-3.7" curve="-110"/>
-<vertex x="-4" y="0" curve="-110"/>
-<vertex x="1.5" y="3.7" curve="65"/>
+<vertex x="1.5" y="-4.335" curve="-110"/>
+<vertex x="-4.635" y="0" curve="-110"/>
+<vertex x="1.5" y="4.335" curve="65"/>
 </polygon>
 <polygon width="0.127" layer="1">
 <vertex x="1.65" y="3.1" curve="100"/>
@@ -738,16 +709,6 @@ KEMET S / EIA 3216-12</description>
 <vertex x="0.85" y="0.35" curve="-30"/>
 </polygon>
 <polygon width="0.0254" layer="31">
-<vertex x="0.85" y="-0.35" curve="25"/>
-<vertex x="-3.4" y="-0.85" curve="100"/>
-<vertex x="1.65" y="-3.1" curve="-30"/>
-</polygon>
-<polygon width="0.127" layer="59">
-<vertex x="1.65" y="3.1" curve="100"/>
-<vertex x="-3.4" y="0.85" curve="25"/>
-<vertex x="0.85" y="0.35" curve="-30"/>
-</polygon>
-<polygon width="0.127" layer="59">
 <vertex x="0.85" y="-0.35" curve="25"/>
 <vertex x="-3.4" y="-0.85" curve="100"/>
 <vertex x="1.65" y="-3.1" curve="-30"/>
