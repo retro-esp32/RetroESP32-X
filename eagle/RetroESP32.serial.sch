@@ -532,7 +532,7 @@ KEMET S / EIA 3216-12</description>
 <text x="-8.013" y="-6.76096875" size="1.272059375" layer="25" rot="R90">&gt;NAME</text>
 <text x="9.27375" y="-6.76733125" size="1.273259375" layer="27" rot="R90">&gt;VALUE</text>
 </package>
-<package name="CONDUCTIVE_BUTTON_THICK_STARTSELECT" urn="urn:adsk.eagle:footprint:12566896/3" library_version="22" library_locally_modified="yes">
+<package name="CONDUCTIVE_BUTTON_THICK_STARTSELECT" urn="urn:adsk.eagle:footprint:12566896/3" locally_modified="yes" library_version="27" library_locally_modified="yes">
 <smd name="P$ACTIVE" x="3" y="1" dx="1.6" dy="1.6" layer="1" roundness="25"/>
 <smd name="P$ACTIVE1" x="-1" y="1" dx="1.6" dy="1.6" layer="1" roundness="25"/>
 <smd name="P$ACTIVE2" x="-3" y="-1" dx="1.6" dy="1.6" layer="1" roundness="25" rot="R180"/>
@@ -544,8 +544,16 @@ KEMET S / EIA 3216-12</description>
 <smd name="P$GND1" x="-3" y="1" dx="1.6" dy="1.6" layer="1" roundness="25" rot="R180"/>
 <smd name="P$GND2" x="-1" y="-1" dx="1.6" dy="1.6" layer="1" roundness="25"/>
 <smd name="P$GND3" x="3" y="-1" dx="1.6" dy="1.6" layer="1" roundness="25"/>
+<wire x1="-4" y1="2.5" x2="4" y2="2.5" width="0.127" layer="21"/>
+<wire x1="4" y1="2.5" x2="4.5" y2="2" width="0.127" layer="21" curve="-90"/>
+<wire x1="4.5" y1="2" x2="4.5" y2="-2" width="0.127" layer="21"/>
+<wire x1="4.5" y1="-2" x2="4" y2="-2.5" width="0.127" layer="21" curve="-90"/>
+<wire x1="4" y1="-2.5" x2="-4" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-4" y1="-2.5" x2="-4.5" y2="-2" width="0.127" layer="21" curve="-90"/>
+<wire x1="-4.5" y1="-2" x2="-4.5" y2="2" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="2" x2="-4" y2="2.5" width="0.127" layer="21" curve="-90"/>
 </package>
-<package name="CONDUCTIVE_BUTTON_THICK" urn="urn:adsk.eagle:footprint:12566895/3" library_version="22" library_locally_modified="yes">
+<package name="CONDUCTIVE_BUTTON_THICK" urn="urn:adsk.eagle:footprint:12566895/3" locally_modified="yes" library_version="27" library_locally_modified="yes">
 <circle x="0" y="0" radius="4" width="0" layer="39"/>
 <smd name="P$ACTIVE" x="0" y="-2.25" dx="3.5" dy="0.5" layer="1" rot="R270"/>
 <smd name="P$GND" x="0" y="2.25" dx="3.5" dy="0.5" layer="1" rot="R90"/>
@@ -759,7 +767,7 @@ KEMET S / EIA 3216-12</description>
 <text x="-2.667" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="3.937" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
-<package name="AUDIO-JACK-KIT" urn="urn:adsk.eagle:footprint:12566887/1" library_version="2">
+<package name="AUDIO-JACK-KIT" urn="urn:adsk.eagle:footprint:12566887/1" locally_modified="yes" library_version="27" library_locally_modified="yes">
 <description>&lt;h3&gt;3.5mm Stereo Audio Jack -Kit Version&lt;/h3&gt;
 Reduced openings in tStop, pins spread a tiny bit out to hold part on PCB during assembly
 &lt;p&gt;Specifications:
@@ -779,7 +787,7 @@ Reduced openings in tStop, pins spread a tiny bit out to hold part on PCB during
 <circle x="5" y="-5.1" radius="1.2192" width="0" layer="30"/>
 <circle x="5" y="-2.5" radius="1.2192" width="0" layer="30"/>
 <circle x="5" y="2.5" radius="1.2192" width="0" layer="30"/>
-<wire x1="7.5" y1="6" x2="7.5" y2="-6" width="0.2032" layer="21"/>
+<wire x1="7" y1="6" x2="7" y2="-6" width="0.2032" layer="21"/>
 <wire x1="-3.5" y1="6" x2="-3.5" y2="4.5" width="0.2032" layer="51"/>
 <wire x1="-3.5" y1="-4.5" x2="-3.5" y2="-6" width="0.2032" layer="51"/>
 <wire x1="-4.5" y1="4.5" x2="-4.5" y2="3" width="0.2032" layer="51"/>
@@ -790,10 +798,10 @@ Reduced openings in tStop, pins spread a tiny bit out to hold part on PCB during
 <wire x1="-6.5" y1="-3" x2="-4.5" y2="-3" width="0.2032" layer="51"/>
 <wire x1="-6.5" y1="3" x2="-4.5" y2="3" width="0.2032" layer="51"/>
 <wire x1="-3.5" y1="6" x2="3.5" y2="6" width="0.2032" layer="21"/>
-<wire x1="7.5" y1="6" x2="6.5" y2="6" width="0.2032" layer="21"/>
+<wire x1="7" y1="6" x2="6.5" y2="6" width="0.2032" layer="21"/>
 <wire x1="-3.5" y1="6" x2="-3.5" y2="-6" width="0.2032" layer="21"/>
 <wire x1="-3.5" y1="-6" x2="3.5" y2="-6" width="0.2032" layer="21"/>
-<wire x1="7.5" y1="-6" x2="6.5" y2="-6" width="0.2032" layer="21"/>
+<wire x1="7" y1="-6" x2="6.5" y2="-6" width="0.2032" layer="21"/>
 <pad name="RING" x="5" y="5.1" drill="1.3" diameter="2.1844" stop="no"/>
 <pad name="RSH" x="5" y="2.5" drill="1.3" diameter="2.1844" stop="no"/>
 <pad name="SLEEVE" x="0" y="0" drill="1.3" diameter="2.1844" stop="no"/>
@@ -11623,16 +11631,11 @@ Source: Kingbright .. 2_colour_led_.pdf</description>
 <smd name="A5" x="-1.25" y="4.755" dx="0.3" dy="1.15" layer="1"/>
 <smd name="B8" x="-1.75" y="4.755" dx="0.3" dy="1.15" layer="1"/>
 </package>
-<package name="CONDUCTIVE_BUTTON_DIRECTIONAL" library_version="26" library_locally_modified="yes">
+<package name="CONDUCTIVE_BUTTON_DIRECTIONAL" urn="urn:adsk.eagle:footprint:40166518/1" locally_modified="yes" library_version="27" library_locally_modified="yes">
+<circle x="0" y="0" locked="yes" radius="4" width="0" layer="39"/>
 <circle x="0" y="0" locked="yes" radius="4" width="0" layer="39"/>
 <smd name="P$ACTIVE" x="0.621" y="1.623" dx="2.4" dy="0.4" layer="1" rot="R75"/>
 <smd name="P$GND" x="0.621" y="-1.623" dx="2.4" dy="0.4" layer="1" rot="R285"/>
-<circle x="0" y="0" locked="yes" radius="4" width="0" layer="39"/>
-<polygon width="0.0762" layer="41">
-<vertex x="1.5" y="-4.335" curve="-110"/>
-<vertex x="-4.635" y="0" curve="-110"/>
-<vertex x="1.5" y="4.335" curve="65"/>
-</polygon>
 <polygon width="0.127" layer="1">
 <vertex x="0.75" y="-0.35"/>
 <vertex x="-1.5" y="-0.35" curve="14.999798"/>
@@ -11675,6 +11678,81 @@ Source: Kingbright .. 2_colour_led_.pdf</description>
 <vertex x="-2.95" y="0.6" curve="15"/>
 <vertex x="-1.5" y="0.35"/>
 </polygon>
+<circle x="0" y="0" radius="4" width="0.127" layer="21"/>
+</package>
+<package name="CONDUCTIVE_BUTTON_MGB" library_version="27" library_locally_modified="yes">
+<circle x="0" y="0" radius="4.25" width="0" layer="39"/>
+<smd name="P$ACTIVE" x="-2.85" y="0" dx="4" dy="0.5" layer="1" rot="R270"/>
+<smd name="P$GND" x="2.85" y="0" dx="4" dy="0.5" layer="1" rot="R90"/>
+<polygon width="0.254" layer="1">
+<vertex x="-3" y="2.25"/>
+<vertex x="-3" y="-2.25" curve="60"/>
+<vertex x="-1.75" y="0" curve="60"/>
+</polygon>
+<polygon width="0.254" layer="1">
+<vertex x="3" y="2.25"/>
+<vertex x="3" y="-2.25" curve="-60"/>
+<vertex x="1.75" y="0" curve="-60"/>
+</polygon>
+<polygon width="0.254" layer="1">
+<vertex x="-1.25" y="1.5"/>
+<vertex x="-0.5" y="1.75" curve="-30"/>
+<vertex x="-1" y="-3.25"/>
+<vertex x="-1.75" y="-3" curve="45"/>
+</polygon>
+<polygon width="0.254" layer="1">
+<vertex x="1.25" y="-1.5"/>
+<vertex x="0.5" y="-1.75" curve="-30"/>
+<vertex x="1" y="3.25"/>
+<vertex x="1.75" y="3" curve="45"/>
+</polygon>
+<smd name="P$GND1" x="-0.85" y="1.5" dx="0.5" dy="0.5" layer="1" rot="R110"/>
+<smd name="P$ACTIVE1" x="0.85" y="-1.5" dx="0.5" dy="0.5" layer="1" rot="R290"/>
+<polygon width="0.0254" layer="31">
+<vertex x="-3" y="2.25"/>
+<vertex x="-3" y="-2.25" curve="60"/>
+<vertex x="-1.75" y="0" curve="60"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="3" y="2.25"/>
+<vertex x="3" y="-2.25" curve="-60"/>
+<vertex x="1.75" y="0" curve="-60"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="-1.25" y="1.5"/>
+<vertex x="-0.5" y="1.75" curve="-30"/>
+<vertex x="-1" y="-3.25"/>
+<vertex x="-1.75" y="-3" curve="45"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="1.25" y="-1.5"/>
+<vertex x="0.5" y="-1.75" curve="-30"/>
+<vertex x="1" y="3.25"/>
+<vertex x="1.75" y="3" curve="45"/>
+</polygon>
+<polygon width="0.3048" layer="29">
+<vertex x="-3" y="2.25"/>
+<vertex x="-3" y="-2.25" curve="60"/>
+<vertex x="-1.75" y="0" curve="60"/>
+</polygon>
+<polygon width="0.3048" layer="29">
+<vertex x="3" y="2.25"/>
+<vertex x="3" y="-2.25" curve="-60"/>
+<vertex x="1.75" y="0" curve="-60"/>
+</polygon>
+<polygon width="0.3048" layer="29">
+<vertex x="-1.25" y="1.5"/>
+<vertex x="-0.5" y="1.75" curve="-30"/>
+<vertex x="-1" y="-3.25"/>
+<vertex x="-1.75" y="-3" curve="45"/>
+</polygon>
+<polygon width="0.3048" layer="29">
+<vertex x="1.25" y="-1.5"/>
+<vertex x="0.5" y="-1.75" curve="-30"/>
+<vertex x="1" y="3.25"/>
+<vertex x="1.75" y="3" curve="45"/>
+</polygon>
+<circle x="0" y="0" radius="4.25" width="0.127" layer="21"/>
 </package>
 </packages>
 <packages3d>
@@ -11767,12 +11845,12 @@ KEMET S / EIA 3216-12</description>
 <packageinstance name="503182-1852_MOLEX_503182-1852"/>
 </packageinstances>
 </package3d>
-<package3d name="CONDUCTIVE_BUTTON_THICK_STARTSELECT" urn="urn:adsk.eagle:package:12566911/5" type="empty" library_version="22" library_locally_modified="yes">
+<package3d name="CONDUCTIVE_BUTTON_THICK_STARTSELECT" urn="urn:adsk.eagle:package:12566911/5" type="empty" library_version="27" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="CONDUCTIVE_BUTTON_THICK_STARTSELECT"/>
 </packageinstances>
 </package3d>
-<package3d name="CONDUCTIVE_BUTTON_THICK" urn="urn:adsk.eagle:package:12566912/6" type="empty" library_version="22" library_locally_modified="yes">
+<package3d name="CONDUCTIVE_BUTTON_THICK" urn="urn:adsk.eagle:package:12566912/6" type="empty" library_version="27" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="CONDUCTIVE_BUTTON_THICK"/>
 </packageinstances>
@@ -11792,7 +11870,7 @@ KEMET S / EIA 3216-12</description>
 <packageinstance name="SOIC8"/>
 </packageinstances>
 </package3d>
-<package3d name="AUDIO-JACK-KIT" urn="urn:adsk.eagle:package:12566920/2" type="model" library_version="2">
+<package3d name="AUDIO-JACK-KIT" urn="urn:adsk.eagle:package:12566920/2" type="model" library_version="27" library_locally_modified="yes">
 <description>&lt;h3&gt;3.5mm Stereo Audio Jack -Kit Version&lt;/h3&gt;
 Reduced openings in tStop, pins spread a tiny bit out to hold part on PCB during assembly
 &lt;p&gt;Specifications:
@@ -11870,6 +11948,11 @@ Reduced openings in tStop, pins spread a tiny bit out to hold part on PCB during
 <package3d name="KD026LQTMA008-FH34SRJ" urn="urn:adsk.eagle:package:25924087/2" type="model" library_version="26" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="KD026LQTMA008-FH34SRJ"/>
+</packageinstances>
+</package3d>
+<package3d name="CONDUCTIVE_BUTTON_DIRECTIONAL" urn="urn:adsk.eagle:package:40166519/1" type="box" library_version="27" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="CONDUCTIVE_BUTTON_DIRECTIONAL"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -13106,7 +13189,7 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 </device>
 </devices>
 </deviceset>
-<deviceset name="CONDUCTIVE_BUTTON_STARTSELECT" urn="urn:adsk.eagle:component:12566938/5" library_version="23">
+<deviceset name="CONDUCTIVE_BUTTON_STARTSELECT" urn="urn:adsk.eagle:component:12566938/5" library_version="27" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="CONDUCTIVE_BUTTON_STARTSELECT" x="0" y="0"/>
 </gates>
@@ -13125,7 +13208,7 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 </device>
 </devices>
 </deviceset>
-<deviceset name="CONDUCTIVE_BUTTON" urn="urn:adsk.eagle:component:12566939/8" locally_modified="yes" library_version="26" library_locally_modified="yes">
+<deviceset name="CONDUCTIVE_BUTTON" urn="urn:adsk.eagle:component:12566939/9" locally_modified="yes" library_version="27" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="CONDUCTIVE_BUTTON" x="0" y="0"/>
 </gates>
@@ -13158,6 +13241,18 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <connects>
 <connect gate="G$1" pin="P$ACTIVE" pad="P$ACTIVE"/>
 <connect gate="G$1" pin="P$GND" pad="P$GND"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40166519/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CONDUCTIVE_BUTTON_MGB" package="CONDUCTIVE_BUTTON_MGB">
+<connects>
+<connect gate="G$1" pin="P$ACTIVE" pad="P$ACTIVE P$ACTIVE1"/>
+<connect gate="G$1" pin="P$GND" pad="P$GND P$GND1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13210,7 +13305,7 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 </device>
 </devices>
 </deviceset>
-<deviceset name="AUDIO_JACK_3.5MM" urn="urn:adsk.eagle:component:12566949/2" prefix="J" library_version="2">
+<deviceset name="AUDIO_JACK_3.5MM" urn="urn:adsk.eagle:component:12566949/2" prefix="J" library_version="27" library_locally_modified="yes">
 <description>&lt;h3&gt;Audio Jack&lt;/h3&gt;
 &lt;p&gt; 3.5mm variants of PTH and SMT stereo audio jack with bypass switches.&lt;/p&gt;
 &lt;p&gt;SparkFun Products:
@@ -15205,8 +15300,9 @@ CONN_06
 </part>
 <part name="U$9" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="GND" device=""/>
 <part name="U$10" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="GND" device=""/>
-<part name="B" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="CONDUCTIVE_BUTTON" device="CONDUCTIVE_BUTTON_THICK" package3d_urn="urn:adsk.eagle:package:12566912/6" value="CONDUCTIVE_BUTTONCONDUCTIVE_BUTTON_THICK">
+<part name="B" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="CONDUCTIVE_BUTTON" device="CONDUCTIVE_BUTTON_MGB" value="CONDUCTIVE_BUTTONCONDUCTIVE_BUTTON_MGB">
 <attribute name="IGNORE_BOM" value="TRUE"/>
+<attribute name="SPICEPREFIX" value="B"/>
 </part>
 <part name="START" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="CONDUCTIVE_BUTTON_STARTSELECT" device="CONDUCTIVE_BUTTON_THICK_STARTSELECT" package3d_urn="urn:adsk.eagle:package:12566911/5" value="CONDUCTIVE_BUTTON_STARTSELECTCONDUCTIVE_BUTTON_THICK_STARTSELECT">
 <attribute name="IGNORE_BOM" value="TRUE"/>
@@ -15214,19 +15310,19 @@ CONN_06
 <part name="SELECT" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="CONDUCTIVE_BUTTON_STARTSELECT" device="CONDUCTIVE_BUTTON_THICK_STARTSELECT" package3d_urn="urn:adsk.eagle:package:12566911/5" value="CONDUCTIVE_BUTTON_STARTSELECTCONDUCTIVE_BUTTON_THICK_STARTSELECT">
 <attribute name="IGNORE_BOM" value="TRUE"/>
 </part>
-<part name="A" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="CONDUCTIVE_BUTTON" device="CONDUCTIVE_BUTTON_THICK" package3d_urn="urn:adsk.eagle:package:12566912/6" value="CONDUCTIVE_BUTTONCONDUCTIVE_BUTTON_THICK">
+<part name="A" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="CONDUCTIVE_BUTTON" device="CONDUCTIVE_BUTTON_MGB" value="CONDUCTIVE_BUTTONCONDUCTIVE_BUTTON_MGB">
 <attribute name="IGNORE_BOM" value="TRUE"/>
 </part>
-<part name="UP" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="CONDUCTIVE_BUTTON" device="" value="CONDUCTIVE_BUTTON">
+<part name="UP" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="CONDUCTIVE_BUTTON" device="" package3d_urn="urn:adsk.eagle:package:40166519/1" value="CONDUCTIVE_BUTTON">
 <attribute name="IGNORE_BOM" value="TRUE"/>
 </part>
-<part name="DOWN" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="CONDUCTIVE_BUTTON" device="" value="CONDUCTIVE_BUTTON">
+<part name="DOWN" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="CONDUCTIVE_BUTTON" device="" package3d_urn="urn:adsk.eagle:package:40166519/1" value="CONDUCTIVE_BUTTON">
 <attribute name="IGNORE_BOM" value="TRUE"/>
 </part>
-<part name="LEFT" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="CONDUCTIVE_BUTTON" device="" value="CONDUCTIVE_BUTTON">
+<part name="LEFT" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="CONDUCTIVE_BUTTON" device="" package3d_urn="urn:adsk.eagle:package:40166519/1" value="CONDUCTIVE_BUTTON">
 <attribute name="IGNORE_BOM" value="TRUE"/>
 </part>
-<part name="RIGHT" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="CONDUCTIVE_BUTTON" device="" value="CONDUCTIVE_BUTTON">
+<part name="RIGHT" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="CONDUCTIVE_BUTTON" device="" package3d_urn="urn:adsk.eagle:package:40166519/1" value="CONDUCTIVE_BUTTON">
 <attribute name="IGNORE_BOM" value="TRUE"/>
 </part>
 <part name="GND19" library="RetroESP32" library_urn="urn:adsk.eagle:library:12566846" deviceset="GND" device=""/>
