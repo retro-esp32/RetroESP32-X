@@ -499,20 +499,12 @@ KEMET S / EIA 3216-12</description>
 <text x="-1.397" y="1.778" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.651" y="0.635" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
-<package name="503182-1852_MOLEX_503182-1852" urn="urn:adsk.eagle:footprint:12566848/1" library_version="2">
+<package name="503182-1852_MOLEX_503182-1852" urn="urn:adsk.eagle:footprint:12566848/1" locally_modified="yes" library_version="27" library_locally_modified="yes">
 <circle x="-3.81" y="8.89" radius="0.1" width="0.2" layer="21"/>
-<wire x1="-7.07" y1="8.225" x2="7.07" y2="8.225" width="0.127" layer="51"/>
-<wire x1="7.07" y1="8.225" x2="7.07" y2="-6.725" width="0.127" layer="51"/>
-<wire x1="7.07" y1="-6.725" x2="-7.07" y2="-6.725" width="0.127" layer="51"/>
-<wire x1="-7.07" y1="-6.725" x2="-7.07" y2="8.225" width="0.127" layer="51"/>
 <wire x1="-8" y1="-7.25" x2="8" y2="-7.25" width="0.05" layer="39"/>
 <wire x1="8" y1="-7.25" x2="8" y2="8.5" width="0.05" layer="39"/>
 <wire x1="8" y1="8.5" x2="-8" y2="8.5" width="0.05" layer="39"/>
 <wire x1="-8" y1="8.5" x2="-8" y2="-7.25" width="0.05" layer="39"/>
-<wire x1="-7.07" y1="7.28" x2="-7.07" y2="8.225" width="0.127" layer="21"/>
-<wire x1="-7.07" y1="8.225" x2="7.07" y2="8.225" width="0.127" layer="21"/>
-<wire x1="7.07" y1="8.225" x2="7.07" y2="7.28" width="0.127" layer="21"/>
-<wire x1="-1.8" y1="-6.725" x2="3.9" y2="-6.725" width="0.127" layer="21"/>
 <rectangle x1="7.08471875" y1="-4.183690625" x2="7.47" y2="-1.775" layer="39"/>
 <smd name="1" x="-2.9" y="6.355" dx="0.8" dy="1.24" layer="1"/>
 <smd name="2" x="-1.8" y="6.355" dx="0.8" dy="1.24" layer="1"/>
@@ -531,6 +523,41 @@ KEMET S / EIA 3216-12</description>
 <smd name="SW" x="6.74" y="3.725" dx="1.16" dy="1.25" layer="1"/>
 <text x="-8.013" y="-6.76096875" size="1.272059375" layer="25" rot="R90">&gt;NAME</text>
 <text x="9.27375" y="-6.76733125" size="1.273259375" layer="27" rot="R90">&gt;VALUE</text>
+<wire x1="3" y1="1.5" x2="3" y2="3.5" width="0.127" layer="21"/>
+<wire x1="3" y1="3.5" x2="2.5" y2="4" width="0.127" layer="21" curve="90"/>
+<wire x1="2.5" y1="4" x2="-2.5" y2="4" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="4" x2="-3" y2="3.5" width="0.127" layer="21" curve="90"/>
+<wire x1="-3" y1="3.5" x2="-3" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="-3" y1="-3.5" x2="-2.5" y2="-4" width="0.127" layer="21" curve="90"/>
+<wire x1="-2.5" y1="-4" x2="1.5" y2="-4" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-4" x2="2" y2="-3.5" width="0.127" layer="21" curve="90"/>
+<wire x1="2" y1="-3.5" x2="2" y2="-2" width="0.127" layer="21"/>
+<wire x1="2" y1="-2" x2="3" y2="-1" width="0.127" layer="21"/>
+<wire x1="3" y1="-1" x2="3" y2="0" width="0.127" layer="21"/>
+<wire x1="3" y1="0" x2="2.5" y2="0" width="0.127" layer="21"/>
+<wire x1="2.5" y1="0" x2="2.5" y2="1" width="0.127" layer="21"/>
+<wire x1="2.5" y1="1" x2="3" y2="1.5" width="0.127" layer="21"/>
+<rectangle x1="-2.3" y1="-3.25" x2="-2" y2="-2.25" layer="21"/>
+<rectangle x1="-1.3" y1="-3.5" x2="-1" y2="-2.25" layer="21"/>
+<rectangle x1="-0.3" y1="-3.5" x2="0" y2="-2.25" layer="21"/>
+<rectangle x1="0.7" y1="-3.25" x2="1" y2="-2.25" layer="21"/>
+<rectangle x1="0.2" y1="-3.25" x2="0.5" y2="-2.25" layer="21"/>
+<rectangle x1="-0.8" y1="-3.25" x2="-0.5" y2="-2.25" layer="21"/>
+<rectangle x1="-1.8" y1="-3.25" x2="-1.5" y2="-2.25" layer="21"/>
+<rectangle x1="1.2" y1="-3.25" x2="1.5" y2="-2.25" layer="21"/>
+<polygon width="0.1016" layer="21">
+<vertex x="2" y="-1"/>
+<vertex x="-2.25" y="-1" curve="-90"/>
+<vertex x="-2.5" y="-0.75"/>
+<vertex x="-2.5" y="3.25" curve="-90"/>
+<vertex x="-2.25" y="3.5"/>
+<vertex x="2.25" y="3.5" curve="-90"/>
+<vertex x="2.5" y="3.25"/>
+<vertex x="2.5" y="1.75"/>
+<vertex x="2" y="1.25"/>
+<vertex x="2" y="-0.5"/>
+<vertex x="2.5" y="-0.5"/>
+</polygon>
 </package>
 <package name="CONDUCTIVE_BUTTON_THICK_STARTSELECT" urn="urn:adsk.eagle:footprint:12566896/3" locally_modified="yes" library_version="27" library_locally_modified="yes">
 <smd name="P$ACTIVE" x="3" y="1" dx="1.6" dy="1.6" layer="1" roundness="25"/>
@@ -544,14 +571,14 @@ KEMET S / EIA 3216-12</description>
 <smd name="P$GND1" x="-3" y="1" dx="1.6" dy="1.6" layer="1" roundness="25" rot="R180"/>
 <smd name="P$GND2" x="-1" y="-1" dx="1.6" dy="1.6" layer="1" roundness="25"/>
 <smd name="P$GND3" x="3" y="-1" dx="1.6" dy="1.6" layer="1" roundness="25"/>
-<wire x1="-4" y1="2.5" x2="4" y2="2.5" width="0.127" layer="21"/>
-<wire x1="4" y1="2.5" x2="4.5" y2="2" width="0.127" layer="21" curve="-90"/>
-<wire x1="4.5" y1="2" x2="4.5" y2="-2" width="0.127" layer="21"/>
-<wire x1="4.5" y1="-2" x2="4" y2="-2.5" width="0.127" layer="21" curve="-90"/>
-<wire x1="4" y1="-2.5" x2="-4" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-4" y1="-2.5" x2="-4.5" y2="-2" width="0.127" layer="21" curve="-90"/>
-<wire x1="-4.5" y1="-2" x2="-4.5" y2="2" width="0.127" layer="21"/>
-<wire x1="-4.5" y1="2" x2="-4" y2="2.5" width="0.127" layer="21" curve="-90"/>
+<wire x1="-4" y1="2.5" x2="4" y2="2.5" width="0.127" layer="51"/>
+<wire x1="4" y1="2.5" x2="4.5" y2="2" width="0.127" layer="51" curve="-90"/>
+<wire x1="4.5" y1="2" x2="4.5" y2="-2" width="0.127" layer="51"/>
+<wire x1="4.5" y1="-2" x2="4" y2="-2.5" width="0.127" layer="51" curve="-90"/>
+<wire x1="4" y1="-2.5" x2="-4" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-4" y1="-2.5" x2="-4.5" y2="-2" width="0.127" layer="51" curve="-90"/>
+<wire x1="-4.5" y1="-2" x2="-4.5" y2="2" width="0.127" layer="51"/>
+<wire x1="-4.5" y1="2" x2="-4" y2="2.5" width="0.127" layer="51" curve="-90"/>
 </package>
 <package name="CONDUCTIVE_BUTTON_THICK" urn="urn:adsk.eagle:footprint:12566895/3" locally_modified="yes" library_version="27" library_locally_modified="yes">
 <circle x="0" y="0" radius="4" width="0" layer="39"/>
@@ -787,9 +814,6 @@ Reduced openings in tStop, pins spread a tiny bit out to hold part on PCB during
 <circle x="5" y="-5.1" radius="1.2192" width="0" layer="30"/>
 <circle x="5" y="-2.5" radius="1.2192" width="0" layer="30"/>
 <circle x="5" y="2.5" radius="1.2192" width="0" layer="30"/>
-<wire x1="7" y1="6" x2="7" y2="-6" width="0.2032" layer="21"/>
-<wire x1="-3.5" y1="6" x2="-3.5" y2="4.5" width="0.2032" layer="51"/>
-<wire x1="-3.5" y1="-4.5" x2="-3.5" y2="-6" width="0.2032" layer="51"/>
 <wire x1="-4.5" y1="4.5" x2="-4.5" y2="3" width="0.2032" layer="51"/>
 <wire x1="-4.5" y1="-3" x2="-4.5" y2="-4.5" width="0.2032" layer="51"/>
 <wire x1="-4.5" y1="-4.5" x2="-3.5" y2="-4.5" width="0.2032" layer="51"/>
@@ -797,23 +821,25 @@ Reduced openings in tStop, pins spread a tiny bit out to hold part on PCB during
 <wire x1="-6.5" y1="3" x2="-6.5" y2="-3" width="0.2032" layer="51"/>
 <wire x1="-6.5" y1="-3" x2="-4.5" y2="-3" width="0.2032" layer="51"/>
 <wire x1="-6.5" y1="3" x2="-4.5" y2="3" width="0.2032" layer="51"/>
-<wire x1="-3.5" y1="6" x2="3.5" y2="6" width="0.2032" layer="21"/>
-<wire x1="7" y1="6" x2="6.5" y2="6" width="0.2032" layer="21"/>
-<wire x1="-3.5" y1="6" x2="-3.5" y2="-6" width="0.2032" layer="21"/>
-<wire x1="-3.5" y1="-6" x2="3.5" y2="-6" width="0.2032" layer="21"/>
-<wire x1="7" y1="-6" x2="6.5" y2="-6" width="0.2032" layer="21"/>
 <pad name="RING" x="5" y="5.1" drill="1.3" diameter="2.1844" stop="no"/>
 <pad name="RSH" x="5" y="2.5" drill="1.3" diameter="2.1844" stop="no"/>
 <pad name="SLEEVE" x="0" y="0" drill="1.3" diameter="2.1844" stop="no"/>
 <pad name="TIP" x="5" y="-5.1" drill="1.3" diameter="2.1844" stop="no"/>
 <pad name="TSH" x="5" y="-2.5" drill="1.3" diameter="2.1844" stop="no"/>
-<text x="-1.27" y="2.032" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-2.032" y="-1.27" size="0.6096" layer="25" font="vector" ratio="20" rot="R90">&gt;NAME</text>
 <text x="-1.27" y="-2.667" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 <hole x="0" y="5" drill="1.2"/>
 <hole x="-2.5" y="5" drill="1.2"/>
 <hole x="-2.5" y="-5" drill="1.2"/>
 <hole x="0" y="-5" drill="1.2"/>
 <hole x="5" y="0" drill="1.2"/>
+<rectangle x1="-1.5" y1="-3" x2="1.5" y2="-1.5" layer="21"/>
+<rectangle x1="-1.5" y1="1.5" x2="1.5" y2="3" layer="21" rot="R180"/>
+<wire x1="1.5" y1="2.75" x2="3.5" y2="0.5" width="0.508" layer="21" curve="-90"/>
+<wire x1="3.5" y1="0.5" x2="3.5" y2="-0.5" width="0.508" layer="21"/>
+<wire x1="3.5" y1="-0.5" x2="1.5" y2="-2.75" width="0.508" layer="21" curve="-90"/>
+<rectangle x1="-1" y1="3.25" x2="1" y2="3.75" layer="21"/>
+<rectangle x1="-1" y1="-3.75" x2="1" y2="-3.25" layer="21"/>
 </package>
 <package name="1X02" urn="urn:adsk.eagle:footprint:12566886/1" library_version="2">
 <description>&lt;h3&gt;Plated Through Hole&lt;/h3&gt;
@@ -11678,81 +11704,81 @@ Source: Kingbright .. 2_colour_led_.pdf</description>
 <vertex x="-2.95" y="0.6" curve="15"/>
 <vertex x="-1.5" y="0.35"/>
 </polygon>
-<circle x="0" y="0" radius="4" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="4" width="0.127" layer="51"/>
 </package>
 <package name="CONDUCTIVE_BUTTON_MGB" library_version="27" library_locally_modified="yes">
 <circle x="0" y="0" radius="4.25" width="0" layer="39"/>
-<smd name="P$ACTIVE" x="-2.85" y="0" dx="4" dy="0.5" layer="1" rot="R270"/>
-<smd name="P$GND" x="2.85" y="0" dx="4" dy="0.5" layer="1" rot="R90"/>
+<smd name="P$ACTIVE" x="-2.35" y="0" dx="4" dy="0.5" layer="1" rot="R270"/>
+<smd name="P$GND" x="2.35" y="0" dx="4" dy="0.5" layer="1" rot="R90"/>
 <polygon width="0.254" layer="1">
-<vertex x="-3" y="2.25"/>
-<vertex x="-3" y="-2.25" curve="60"/>
-<vertex x="-1.75" y="0" curve="60"/>
+<vertex x="-2.5" y="2.25"/>
+<vertex x="-2.5" y="-2.25" curve="45"/>
+<vertex x="-1.5" y="0" curve="45"/>
 </polygon>
 <polygon width="0.254" layer="1">
-<vertex x="3" y="2.25"/>
-<vertex x="3" y="-2.25" curve="-60"/>
-<vertex x="1.75" y="0" curve="-60"/>
+<vertex x="2.5" y="2.25"/>
+<vertex x="2.5" y="-2.25" curve="-45"/>
+<vertex x="1.5" y="0" curve="-45"/>
 </polygon>
 <polygon width="0.254" layer="1">
-<vertex x="-1.25" y="1.5"/>
+<vertex x="-1" y="1.5"/>
 <vertex x="-0.5" y="1.75" curve="-30"/>
 <vertex x="-1" y="-3.25"/>
-<vertex x="-1.75" y="-3" curve="45"/>
+<vertex x="-1.5" y="-3" curve="45"/>
 </polygon>
 <polygon width="0.254" layer="1">
-<vertex x="1.25" y="-1.5"/>
+<vertex x="1" y="-1.5"/>
 <vertex x="0.5" y="-1.75" curve="-30"/>
 <vertex x="1" y="3.25"/>
-<vertex x="1.75" y="3" curve="45"/>
+<vertex x="1.5" y="3" curve="45"/>
 </polygon>
-<smd name="P$GND1" x="-0.85" y="1.5" dx="0.5" dy="0.5" layer="1" rot="R110"/>
-<smd name="P$ACTIVE1" x="0.85" y="-1.5" dx="0.5" dy="0.5" layer="1" rot="R290"/>
+<smd name="P$GND1" x="-0.7" y="1.4" dx="0.5" dy="0.5" layer="1" rot="R110"/>
+<smd name="P$ACTIVE1" x="0.7" y="-1.4" dx="0.5" dy="0.5" layer="1" rot="R290"/>
 <polygon width="0.0254" layer="31">
-<vertex x="-3" y="2.25"/>
-<vertex x="-3" y="-2.25" curve="60"/>
-<vertex x="-1.75" y="0" curve="60"/>
-</polygon>
-<polygon width="0.0254" layer="31">
-<vertex x="3" y="2.25"/>
-<vertex x="3" y="-2.25" curve="-60"/>
-<vertex x="1.75" y="0" curve="-60"/>
+<vertex x="-2.5" y="2.25"/>
+<vertex x="-2.5" y="-2.25" curve="45"/>
+<vertex x="-1.5" y="0" curve="45"/>
 </polygon>
 <polygon width="0.0254" layer="31">
-<vertex x="-1.25" y="1.5"/>
+<vertex x="2.5" y="2.25"/>
+<vertex x="2.5" y="-2.25" curve="-45"/>
+<vertex x="1.5" y="0" curve="-45"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="-1" y="1.5"/>
 <vertex x="-0.5" y="1.75" curve="-30"/>
 <vertex x="-1" y="-3.25"/>
-<vertex x="-1.75" y="-3" curve="45"/>
+<vertex x="-1.5" y="-3" curve="45"/>
 </polygon>
 <polygon width="0.0254" layer="31">
-<vertex x="1.25" y="-1.5"/>
+<vertex x="1" y="-1.5"/>
 <vertex x="0.5" y="-1.75" curve="-30"/>
 <vertex x="1" y="3.25"/>
-<vertex x="1.75" y="3" curve="45"/>
+<vertex x="1.5" y="3" curve="45"/>
 </polygon>
 <polygon width="0.3048" layer="29">
-<vertex x="-3" y="2.25"/>
-<vertex x="-3" y="-2.25" curve="60"/>
-<vertex x="-1.75" y="0" curve="60"/>
+<vertex x="-2.5" y="2.25"/>
+<vertex x="-2.5" y="-2.25" curve="45"/>
+<vertex x="-1.5" y="0" curve="45"/>
 </polygon>
 <polygon width="0.3048" layer="29">
-<vertex x="3" y="2.25"/>
-<vertex x="3" y="-2.25" curve="-60"/>
-<vertex x="1.75" y="0" curve="-60"/>
+<vertex x="2.5" y="2.25"/>
+<vertex x="2.5" y="-2.25" curve="-45"/>
+<vertex x="1.5" y="0" curve="-45"/>
 </polygon>
 <polygon width="0.3048" layer="29">
-<vertex x="-1.25" y="1.5"/>
+<vertex x="-1" y="1.5"/>
 <vertex x="-0.5" y="1.75" curve="-30"/>
 <vertex x="-1" y="-3.25"/>
-<vertex x="-1.75" y="-3" curve="45"/>
+<vertex x="-1.5" y="-3" curve="45"/>
 </polygon>
 <polygon width="0.3048" layer="29">
-<vertex x="1.25" y="-1.5"/>
+<vertex x="1" y="-1.5"/>
 <vertex x="0.5" y="-1.75" curve="-30"/>
 <vertex x="1" y="3.25"/>
-<vertex x="1.75" y="3" curve="45"/>
+<vertex x="1.5" y="3" curve="45"/>
 </polygon>
-<circle x="0" y="0" radius="4.25" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="4.25" width="0.127" layer="51"/>
 </package>
 </packages>
 <packages3d>
@@ -11840,7 +11866,7 @@ KEMET S / EIA 3216-12</description>
 <packageinstance name="JST-2-SMD"/>
 </packageinstances>
 </package3d>
-<package3d name="503182-1852_MOLEX_503182-1852" urn="urn:adsk.eagle:package:12566931/2" type="model" library_version="2">
+<package3d name="503182-1852_MOLEX_503182-1852" urn="urn:adsk.eagle:package:12566931/2" type="model" library_version="27" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="503182-1852_MOLEX_503182-1852"/>
 </packageinstances>
@@ -13153,7 +13179,7 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 </device>
 </devices>
 </deviceset>
-<deviceset name="503182-1852_503182-1852" urn="urn:adsk.eagle:component:12566960/2" prefix="J" library_version="2">
+<deviceset name="503182-1852_503182-1852" urn="urn:adsk.eagle:component:12566960/2" prefix="J" library_version="27" library_locally_modified="yes">
 <description>Conn Micro SD Card M 8 POS 1.09mm Solder RA SMD Embossed T/R 0.5A/Contact</description>
 <gates>
 <gate name="G$1" symbol="503182-1852_503182-1852" x="0" y="0"/>
