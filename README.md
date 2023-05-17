@@ -42,8 +42,6 @@ This project is licensed under the Creative Commons Attribution Share Alike 4.0 
 > **We Also Like Coffee!** <br/>
 > *Please Consider Supporting* <br/>
 
-
-
 Did you know, you can support us in a few way? We offer multiple sposorship tiers, with different rewards!
 
 Take a *look*. 
