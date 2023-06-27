@@ -1,9 +1,29 @@
 .DS_Store
-Software/*/build/
-**/build/
 
+**/*
+
+# Creative file
+creative/
+
+# Eagle Stuff Until Public
+# eagle/
+gerber/
+lbr/
+pdf/
+pnp/
+
+
+*.brd
+*.sch
+**/*.brd
+**/*.sch
+
+# Eagle Libraries
+**/*.lbr
+**/*.scr
+
+# These are the Eagle Backup files that are created locally
 *.b#*
 *.s#*
-
 **/*.b#*
 **/*.s#*
