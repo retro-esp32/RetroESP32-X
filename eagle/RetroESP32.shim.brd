@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
@@ -1959,16 +1959,24 @@ design rules under a new name.</description>
 <signals>
 <signal name="GND">
 <polygon width="0.127" layer="16" thermals="no">
-<vertex x="-1" y="52"/>
-<vertex x="-1" y="31"/>
-<vertex x="61" y="31"/>
-<vertex x="61" y="52"/>
+<vertex x="-0.15" y="51.575"/>
+<vertex x="-0.15" y="31.45"/>
+<vertex x="15" y="31.45"/>
+<vertex x="15" y="43"/>
+<vertex x="45" y="43"/>
+<vertex x="45" y="31.45"/>
+<vertex x="60.15" y="31.45"/>
+<vertex x="60.15" y="51.575"/>
 </polygon>
 <polygon width="0.127" layer="1" thermals="no">
-<vertex x="-1" y="52"/>
-<vertex x="61" y="52"/>
-<vertex x="61" y="31"/>
-<vertex x="-1" y="31"/>
+<vertex x="-0.15" y="51.575"/>
+<vertex x="60.15" y="51.575"/>
+<vertex x="60.15" y="31.45"/>
+<vertex x="45" y="31.45"/>
+<vertex x="45" y="43"/>
+<vertex x="15" y="43"/>
+<vertex x="15" y="31.45"/>
+<vertex x="-0.15" y="31.45"/>
 </polygon>
 </signal>
 </signals>
