@@ -1,6 +1,5 @@
 .DS_Store
-
-**/*
+*.icloud
 
 # Creative file
 creative/
@@ -27,3 +26,9 @@ pnp/
 *.s#*
 **/*.b#*
 **/*.s#*
+
+# release files
+!eagle/RetroESP32.serial.brd
+!eagle/RetroESP32.serial.sch
+!eagle/RetroESP32.shim.brd
+!eagle/RetroESP32.shim.sch
