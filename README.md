@@ -1,4 +1,4 @@
-![Retro ESP32](assets/splash.png)
+![Retro ESP32](assets/RetroESP32.png)
 > Gameboy Pocket Drop In PCB
 
 This is an updated release of the previous Retro ESP32 Commercial Hardware PCB.
