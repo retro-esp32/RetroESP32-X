@@ -1,9 +1,14 @@
-![Retro ESP32](assets/RetroESP32.png)
+![Retro ESP32](assets/RetroESP32-X.png)
 > Gameboy Pocket Drop In PCB
 
-This is an updated release of the previous Retro ESP32 Commercial Hardware PCB.
+We're thrilled to unveil the latest and greatest iteration of our beloved Retro ESP32 - the Retro ESP32 X! 🚀🕹️
 
-[Firmware is in another repo](https://github.com/retro-esp32/RetroESP32)
+**📢 Important Update:**
+Please note that the original Retro ESP32 is now deprecated and is no longer supported. But fret not, because the all-new Retro ESP32 X is here to take your gaming experience to new heights! 📈✨
+
+***The Retro ESP32 X uses the firmware from [Ducalex - Retro Go](https://github.com/ducalex/retro-go)***
+
+Link to the Origina Rettro ESP32 Firmware Repo: [Check it out here!](https://github.com/retro-esp32/RetroESP32)
 
 ## What's Public
 
@@ -22,7 +27,7 @@ This is an updated release of the previous Retro ESP32 Commercial Hardware PCB.
 
 ## Images
 
-|  <img src='assets/RetroESP32.serial.top.png'/>    |   <img src='assets/RetroESP32.serial.bottom.png'/>     |
+|  <img src='assets/RetroESP32-X.top.png'/>    |   <img src='assets/RetroESP32-X.bottom.png'/>     |
 | ---- | ------ |
 | Top  | Bottom |
 

@@ -18763,6 +18763,112 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="LTST-C155GEKT">
+<packages>
+<package name="LED_LTST-C155GEKT">
+<wire x1="-1.6" y1="-1.35" x2="-1.6" y2="1.35" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="1.35" x2="1.6" y2="1.35" width="0.127" layer="51"/>
+<wire x1="1.6" y1="1.35" x2="1.6" y2="-1.35" width="0.127" layer="51"/>
+<wire x1="1.6" y1="-1.35" x2="-1.6" y2="-1.35" width="0.127" layer="51"/>
+<wire x1="-2.75" y1="1.6" x2="-2.75" y2="-1.6" width="0.05" layer="39"/>
+<wire x1="-2.75" y1="-1.6" x2="2.75" y2="-1.6" width="0.05" layer="39"/>
+<wire x1="2.75" y1="-1.6" x2="2.75" y2="1.6" width="0.05" layer="39"/>
+<wire x1="2.75" y1="1.6" x2="-2.75" y2="1.6" width="0.05" layer="39"/>
+<circle x="-3.25" y="0.7" radius="0.1" width="0.2" layer="21"/>
+<circle x="-3.25" y="0.7" radius="0.1" width="0.2" layer="51"/>
+<text x="-2.75" y="1.8" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-2.75" y="-1.8" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
+<wire x1="-0.68" y1="1.35" x2="0.68" y2="1.35" width="0.127" layer="21"/>
+<wire x1="0.68" y1="-1.35" x2="-0.68" y2="-1.35" width="0.127" layer="21"/>
+<smd name="1" x="-1.75" y="0.7" dx="1.5" dy="1" layer="1"/>
+<smd name="2" x="-1.75" y="-0.7" dx="1.5" dy="1" layer="1"/>
+<smd name="3" x="1.75" y="0.7" dx="1.5" dy="1" layer="1"/>
+<smd name="4" x="1.75" y="-0.7" dx="1.5" dy="1" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="LTST-C155GEKT_SECTION1">
+<wire x1="-2.54" y1="1.524" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.524" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-2.54" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0" y1="1.524" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.889" y1="3.937" x2="-0.889" y2="1.905" width="0.254" layer="94"/>
+<text x="-3.0988" y="4.4958" size="1.27" layer="95">&gt;NAME</text>
+<text x="-3.556" y="-3.302" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="-0.3556" y1="4.0386" x2="-2.1336" y2="2.0066" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.143" y="3.683"/>
+<vertex x="-0.5715" y="3.175"/>
+<vertex x="-0.1905" y="4.191"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="0.127" y="3.6195"/>
+<vertex x="0.6985" y="3.1115"/>
+<vertex x="1.0795" y="4.191"/>
+</polygon>
+<pin name="SHORT_C" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="SHORT_A" x="-7.62" y="0" visible="pad" length="short" direction="pas"/>
+</symbol>
+<symbol name="LTST-C155GEKT_SECTION2">
+<wire x1="-2.54" y1="1.524" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.524" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-2.54" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0" y1="1.524" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.889" y1="3.937" x2="-0.889" y2="1.905" width="0.254" layer="94"/>
+<text x="-3.0988" y="4.4958" size="1.27" layer="95">&gt;NAME</text>
+<text x="-3.556" y="-3.302" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="-0.3556" y1="4.0386" x2="-2.1336" y2="2.0066" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.143" y="3.683"/>
+<vertex x="-0.5715" y="3.175"/>
+<vertex x="-0.1905" y="4.191"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="0.127" y="3.6195"/>
+<vertex x="0.6985" y="3.1115"/>
+<vertex x="1.0795" y="4.191"/>
+</polygon>
+<pin name="LONG_C" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="LONG_A" x="-7.62" y="0" visible="pad" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LTST-C155GEKT" prefix="D">
+<gates>
+<gate name="G$1" symbol="LTST-C155GEKT_SECTION1" x="0" y="5.08" swaplevel="1"/>
+<gate name="G$2" symbol="LTST-C155GEKT_SECTION2" x="0" y="-5.08" swaplevel="2"/>
+</gates>
+<devices>
+<device name="" package="LED_LTST-C155GEKT">
+<connects>
+<connect gate="G$1" pin="SHORT_A" pad="1"/>
+<connect gate="G$1" pin="SHORT_C" pad="3"/>
+<connect gate="G$2" pin="LONG_A" pad="2"/>
+<connect gate="G$2" pin="LONG_C" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" Green, Red 569nm Green, 621nm Red LED Indication - Discrete 2.1V Green, 2V Red 1210 (3225 Metric) "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="160-1172-2-ND"/>
+<attribute name="MF" value="Lite-On Inc."/>
+<attribute name="MP" value="LTST-C155GEKT"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search?q=LTST-C155GEKT&amp;ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -19019,6 +19125,7 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <part name="X3" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="53?-02" device="261" package3d_urn="urn:adsk.eagle:package:8078537/1">
 <attribute name="MPN" value="0532614002"/>
 </part>
+<part name="D1" library="LTST-C155GEKT" deviceset="LTST-C155GEKT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19118,6 +19225,14 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <attribute name="NAME" x="128.27" y="54.8386" size="1.016" layer="95"/>
 <attribute name="VALUE" x="128.27" y="50.038" size="1.016" layer="96"/>
 <attribute name="MPN" x="132.08" y="53.34" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D1" gate="G$1" x="114.3" y="43.18" smashed="yes">
+<attribute name="NAME" x="111.2012" y="47.6758" size="1.27" layer="95"/>
+<attribute name="VALUE" x="110.744" y="39.878" size="1.27" layer="96"/>
+</instance>
+<instance part="D1" gate="G$2" x="114.3" y="38.1" smashed="yes">
+<attribute name="NAME" x="111.2012" y="42.5958" size="1.27" layer="95"/>
+<attribute name="VALUE" x="110.744" y="34.798" size="1.27" layer="96"/>
 </instance>
 </instances>
 <busses>

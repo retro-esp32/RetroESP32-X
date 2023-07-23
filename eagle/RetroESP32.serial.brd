@@ -195,7 +195,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYjExYjI4" projecturn="a.cGVyc29uYWw6dWUyYjExYjI4IzIwMTkwNjA2MTk3NjIxNDMx" f3durn="urn:adsk.wipprod:dm.lineage:ZWmRsYaBRGKwdBkIFFlMag" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="7732cfb7-a4b0-4dd0-aef1-4c9a1b6ed651" lastsyncedrevisionid="f3f9ff4f-a156-4fd5-8441-28e31faf31d2" lastboardhashguid="41d33a08-9d62-a667-3f9b-4f8ad2bc6665" lastpushedtime="2023-03-30T16:58:05Z" linktopcb3d="true"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYjExYjI4" projecturn="a.cGVyc29uYWw6dWUyYjExYjI4IzIwMTkwNjA2MTk3NjIxNDMx" f3durn="urn:adsk.wipprod:dm.lineage:ZWmRsYaBRGKwdBkIFFlMag" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="7732cfb7-a4b0-4dd0-aef1-4c9a1b6ed651" lastsyncedrevisionid="f3f9ff4f-a156-4fd5-8441-28e31faf31d2" lastboardhashguid="41d33a08-9d62-a667-3f9b-4f8ad2bc6665" lastpushedtime="2023-03-30T16:58:05Z" linktopcb3d="false"/>
 <fusionteam huburn="a.cGVyc29uYWw6dWUyYjExYjI4" projecturn="a.cGVyc29uYWw6dWUyYjExYjI4IzIwMTkwNjA2MTk3NjIxNDMx" folderUrn="urn:adsk.wipprod:fs.folder:co.pA_OyOrURcuKuaZfHTjB4g" urn="urn:adsk.wipprod:dm.lineage:ZdROvaXvSf-QMBwcavZMUg"  versionUrn="urn:adsk.wipprod:fs.file:vf.ZdROvaXvSf-QMBwcavZMUg?version=3" camFileUrn="urn:adsk.wipprod:dm.lineage:iU1Nsl3HQ2WKUaZAR9U5UA" camFileVersionUrn="urn:adsk.wipprod:fs.file:vf.iU1Nsl3HQ2WKUaZAR9U5UA?version=3" lastpublishedchangeguid="86bd4f74-7e00-3941-ed52-f5fd457b13a9"/>
 <plain>
 <rectangle x1="54.5" y1="90.5" x2="59" y2="93.5" layer="16"/>
@@ -4621,6 +4621,30 @@ CONN_06
 </package3d>
 </packages3d>
 </library>
+<library name="LTST-C155GEKT">
+<packages>
+<package name="LED_LTST-C155GEKT">
+<wire x1="-1.6" y1="-1.35" x2="-1.6" y2="1.35" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="1.35" x2="1.6" y2="1.35" width="0.127" layer="51"/>
+<wire x1="1.6" y1="1.35" x2="1.6" y2="-1.35" width="0.127" layer="51"/>
+<wire x1="1.6" y1="-1.35" x2="-1.6" y2="-1.35" width="0.127" layer="51"/>
+<wire x1="-2.75" y1="1.6" x2="-2.75" y2="-1.6" width="0.05" layer="39"/>
+<wire x1="-2.75" y1="-1.6" x2="2.75" y2="-1.6" width="0.05" layer="39"/>
+<wire x1="2.75" y1="-1.6" x2="2.75" y2="1.6" width="0.05" layer="39"/>
+<wire x1="2.75" y1="1.6" x2="-2.75" y2="1.6" width="0.05" layer="39"/>
+<circle x="-3.25" y="0.7" radius="0.1" width="0.2" layer="21"/>
+<circle x="-3.25" y="0.7" radius="0.1" width="0.2" layer="51"/>
+<text x="-2.75" y="1.8" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-2.75" y="-1.8" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
+<wire x1="-0.68" y1="1.35" x2="0.68" y2="1.35" width="0.127" layer="21"/>
+<wire x1="0.68" y1="-1.35" x2="-0.68" y2="-1.35" width="0.127" layer="21"/>
+<smd name="1" x="-1.75" y="0.7" dx="1.5" dy="1" layer="1"/>
+<smd name="2" x="-1.75" y="-0.7" dx="1.5" dy="1" layer="1"/>
+<smd name="3" x="1.75" y="0.7" dx="1.5" dy="1" layer="1"/>
+<smd name="4" x="1.75" y="-0.7" dx="1.5" dy="1" layer="1"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5163,6 +5187,16 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="61.75" y="24" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="POPULARITY" value="0" x="61.75" y="24" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="64.375" y="21" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="D1" library="LTST-C155GEKT" package="LED_LTST-C155GEKT" value="LTST-C155GEKT" x="3.5" y="99.5" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value=" Green, Red 569nm Green, 621nm Red LED Indication - Discrete 2.1V Green, 2V Red 1210 (3225 Metric) " x="3.5" y="99.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="160-1172-2-ND" x="3.5" y="99.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Lite-On Inc." x="3.5" y="99.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="LTST-C155GEKT" x="3.5" y="99.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="1.7" y="96.75" size="0.8128" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="None" x="3.5" y="99.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search?q=LTST-C155GEKT&amp;ref=eda" x="3.5" y="99.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="5.3" y="96.75" size="0.8128" layer="27" rot="R90" align="top-left"/>
 </element>
 </elements>
 <signals>
