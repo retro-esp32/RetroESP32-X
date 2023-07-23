@@ -32,3 +32,5 @@ pnp/
 !eagle/RetroESP32.serial.sch
 !eagle/RetroESP32.shim.brd
 !eagle/RetroESP32.shim.sch
+!eagle/RetroESP32-X.brd
+!eagle/RetroESP32-X.sch
