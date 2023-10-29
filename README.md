@@ -5,7 +5,7 @@
 
 We're thrilled to unveil the latest and greatest iteration of our beloved Retro ESP32 - the Retro ESP32 X! 🚀🕹️
 
-**OpenretroMGB** is certified unde Open Source Hardware as OSHWA UID [CA0000230](https://certification.oshwa.org/ca0000230.html) with CC-BY-SA-4.0 licensing
+**OpenretroMGB** is certified unde Open Source Hardware as OSHWA UID [CA000030](https://certification.oshwa.org/ca0000230.html) with CC-BY-SA-4.0 licensing
 
 ![Open Source](https://raw.githubusercontent.com/retro-esp32/RetroESP32-X/main/assets/certification-mark-CA000030-wide.png)
 
