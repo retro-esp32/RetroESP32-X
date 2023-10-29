@@ -1,14 +1,13 @@
-![Retro ESP32](assets/RetroESP32-X.png)
+# Introducing the Retro ESP32 *X*
+
+![Retro ESP32](https://raw.githubusercontent.com/retro-esp32/RetroESP32-X/main/assets/RetroESP32-X.png)
 > Gameboy Pocket Drop In PCB
 
 We're thrilled to unveil the latest and greatest iteration of our beloved Retro ESP32 - the Retro ESP32 X! 🚀🕹️
 
-**📢 Important Update:**
-Please note that the original Retro ESP32 is now deprecated and is no longer supported. But fret not, because the all-new Retro ESP32 X is here to take your gaming experience to new heights! 📈✨
+**OpenretroMGB** is certified unde Open Source Hardware as OSHWA UID [CA0000230](https://certification.oshwa.org/ca0000230.html) with CC-BY-SA-4.0 licensing
 
-***The Retro ESP32 X uses the firmware from [Ducalex - Retro Go](https://github.com/ducalex/retro-go)***
-
-Link to the Origina Rettro ESP32 Firmware Repo: [Check it out here!](https://github.com/retro-esp32/RetroESP32)
+![Open Source](https://raw.githubusercontent.com/retro-esp32/RetroESP32/master/Assets//certification-mark-CA000030-wide.png)
 
 ## What's Public
 
@@ -27,7 +26,7 @@ Link to the Origina Rettro ESP32 Firmware Repo: [Check it out here!](https://git
 
 ## Images
 
-|  <img src='assets/RetroESP32-X.top.png'/>    |   <img src='assets/RetroESP32-X.bottom.png'/>     |
+|  ![Retro ESP32](https://raw.githubusercontent.com/retro-esp32/RetroESP32-X/main/assets/RetroESP32-X.top.png)   |   ![Retro ESP32](https://raw.githubusercontent.com/retro-esp32/RetroESP32-X/main/assets/RetroESP32-X.bottom.png)   |
 | ---- | ------ |
 | Top  | Bottom |
 
@@ -57,4 +56,12 @@ See what *fits*.
 **Thank You**
 
 
+-----
 
+
+**📢 Important Update:**
+Please note that the original Retro ESP32 is now deprecated and is no longer supported. But fret not, because the all-new Retro ESP32 X is here to take your gaming experience to new heights! 📈✨
+
+***The Retro ESP32 X uses the firmware from [Ducalex - Retro Go](https://github.com/ducalex/retro-go)***
+
+Link to the Origina Rettro ESP32 Firmware Repo: [Check it out here!](https://github.com/retro-esp32/RetroESP32)
